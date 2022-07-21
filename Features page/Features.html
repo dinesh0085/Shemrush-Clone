@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="ALL()">
     <div id="features_top">
         <div>
             <h1>Semrush Features</h1>
@@ -28,17 +28,66 @@
     <div id="features_filter_heading">
         <h1> Choose your area of interest</h1>
         <div id="features_filter_menu">
-            <button id="features_filter_all">All</button>
-            <button id="features_filter_SEO">SEO</button>
-            <button id="features_filter_content">Content</button>
-            <button id="features_filter_MarketResearch">Market Research</button>
-            <button id="features_filter_advertising">Advertising</button>
-            <button id="features_filter_SMM&SERM">SMM & SERM</button>
+            <button id="features_filter_all" onclick="ALL()">All</button>
+            <button id="features_filter_SEO" onclick="SEO()">SEO</button>
+            <button id="features_filter_content" onclick="Content()">Content</button>
+            <button id="features_filter_MarketResearch" onclick="Market_research()">Market Research</button>
+            <button id="features_filter_advertising" onclick="Advertising()">Advertising</button>
+            <button id="features_filter_SMM&SERM" onclick="Smm_serm()">SMM & SERM</button>
         </div>
     </div>
 
     <div id="features_filter_blocks">
-        <!-- append array data here -->
+        <!-- append Array data here -->
+    </div>
+
+    <div id="features_banner">
+        <h1>Get it all in one with Semrush</h1>
+        <button>Get free trial</button>
+    </div>
+
+    <div id="features_allTools">
+        <h1>All Tools</h1>
+        <h3>SEO</h3>
+        <div id="features_allTools_details">
+            <!-- //Append data here -->
+        </div>
+        <div id="features_allTools_details2">
+          
+
+            <div>
+                <h3>Content</h3>
+                <li>Brand Monitoring</li>
+                <li>Content Audit</li>
+                <li> Marketing Calendar</li>
+                <li> Post Tracking</li>
+                 <li> SEO Content Template</li>
+                 <li> SEO Writing Assistant</li>
+                    <li> Topic Research</li>
+            </div>
+
+            <div>
+                <h3>Advertising</h3>
+                <li>Advertising Research</li>
+                <li>PLA Research</li>
+                <li> PPC Keyword tool</li>
+             
+            </div>
+
+            <div>
+                <h3>Social Media</h3>
+                <li>Social Media Tools</li>
+                
+            </div>
+
+            <div>
+                <h3>Competitive Research</h3>
+                <li>Market Explorer</li>
+                <li>Traffic Analytics</li>
+             
+            </div>
+          
+        </div>
     </div>
     
 </body>
