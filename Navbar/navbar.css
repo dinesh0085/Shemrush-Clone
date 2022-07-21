@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+#container{
+    width: 100%;
+    
+ }
+ #top{
+    width: 100%;
+     background-color:#111317;
+     text-align: center;
+     height: 3.5rem;
+ }
+#top a{
+    text-decoration: none;
+}
+
+
+ #top ul{
+    
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+     margin: auto;
+     text-decoration: none;
+    align-items: center;
+    height: 56px;
+ }
+ #top img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+ }
+ #top img:hover{
+    background-color: transparent;
+ }
+
+ .dropDown{
+     display: none;
+     font-size: 13px;
+ }
+ 
+ #top ul li:hover .dropDown{
+    display: flex;
+     position: absolute;
+     background-color: white;
+     margin-top: 20px;
+     margin-left: 0px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ }
+ #top ul li:hover .dropDown ul{
+     display: block;
+     margin: 0px;
+     height: 100%;
+     width: 140%;
+     text-align: left;
+     padding: 0px;
+ }
+ #top ul li:hover .dropDown ul li{
+     width: 100%;
+     background: transparent;
+     color: black;
+     padding: 10px ;
+ }
+ #top ul li:hover .dropDown ul li:hover{
+     background-color:  #eeeeee;
+     cursor: pointer;
+ }
+ #Signin{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 7%;
+ }
+ #Signin > p{
+    margin-right: 10px;
+ }
+ #Signin > button{
+    padding: 5px;
+    background-color: #111317;
+    border: 1px solid white;
+ }
