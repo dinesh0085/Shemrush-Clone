@@ -18,7 +18,12 @@
 #top a{
     text-decoration: none;
 }
-
+ /* #top>#up>li>a:hover{
+    background-color: red;
+ }
+ #top>#up>li>#cb_logo_10>img:hover{
+    background-color: transparent;
+ } */
 
  #top ul{
     
@@ -44,35 +49,39 @@
  .dropDown{
      display: none;
      font-size: 13px;
+     
  }
+ .deb{
+   
+   padding: 30px;
+   
+ }
+ .deb h1,p{
+   text-align: start;
+   margin-top: 10px;
  
+   
+   
+ }
  #top ul li:hover .dropDown{
-    display: flex;
+     display: flex;
      position: absolute;
-     background-color: white;
-     margin-top: 20px;
-     margin-left: 0px;
+     background-color:#111317;
+     margin-top: 19px;
+     margin-left: -60px;
+     
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
- #top ul li:hover .dropDown ul{
-     display: block;
-     margin: 0px;
-     height: 100%;
-     width: 140%;
-     text-align: left;
-     padding: 0px;
+ #top ul li:hover .dropDown .deb h1{
+   color:white;
+   font-size: 20px;
  }
- #top ul li:hover .dropDown ul li{
-     width: 100%;
-     background: transparent;
-     color: black;
-     padding: 10px ;
+  #top ul li:hover .dropDown .deb p{
+   color:grey;
  }
- #top ul li:hover .dropDown ul li:hover{
-     background-color:  #eeeeee;
-     cursor: pointer;
- }
+
+
  #Signin{
     display: flex;
     width: 30%;
@@ -87,4 +96,147 @@
     padding: 5px;
     background-color: #111317;
     border: 1px solid white;
+ }
+
+ #measurable-units{
+   height: 100vh;
+   border: 1px solid red;
+   background-color: #421983;
+   text-align: center;
+ }
+ #measurable-units h1{
+   margin-top: 18vh;
+   font-size: 58px;
+ }
+ #measurable-units #measurable-units-decription{
+   font-size: 25px;
+   margin-top: 5vh;
+   font-family: sans-serif;
+   text-align: center;
+   line-height: 25px;
+
+ }
+ #measurable-units input{
+   width: 40%;
+   padding: 20px 40px;
+   margin-top: 20px;
+   border-radius: 10px;
+   border: none;
+ }
+ #measurable-units button{
+   padding: 20px 50px;
+   background-color: #E2501D;
+   border: none;
+   border-radius: 10px;
+ }
+ #trusted{
+   text-align: center;
+   margin-top: 15vh;
+   font-size: 18px;
+   color: gray;
+ }
+ #whats-inside{
+   background-color: #421983;
+ }
+ #whats-inside h1{
+   font-size: 35px;
+   text-align: center;
+ }
+ #content-marketing{
+   margin: auto;
+   width: 90%;
+   background-color: red;
+   border-radius: 20px;
+ }
+ #marketing-logo{
+
+   padding: 50px;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: repeat(1,150px);
+   gap: 20px;
+   
+ }
+ #marketing-logo div{
+   background-color: white;
+ }
+ #presentation{
+   margin: auto;
+   width: 100%;
+   display: flex;
+   background-color: green;
+ }
+ #presentation-description{
+  padding: 40px 40px 30px 40px;
+ }
+ #presentation-description li{
+  margin-left: 50px;
+  margin-top: 20px;
+ } 
+ #presentation-description button{
+  padding: 15px 40px;
+  background-color: #E2501D;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 18px;
+ }
+ #mario-leon-rojas{
+  
+  text-align: center;
+  padding: 60px 0px;
+ }
+ #mario-leon-rojas img{
+  margin-top: 50px;
+ }
+ #mario-leon-rojas h2{
+  font-size: 45px;
+ }
+ #mario-leon-rojas h4,p{
+  text-align: center;
+  margin-top: 10px;
+ }
+
+
+
+ #awards-winning-total{
+  text-align: center;
+ }
+ #awards-winning-total-numbers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,200px);
+  align-items: center;
+ }
+
+
+ #moredata-more-insights{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+ }
+
+#moredata-more-insights-1{
+  border: 1px solid green;
+  padding: 0px 30px;
+}
+ #moredata-more-insights-2{
+  
+  display: grid;
+  padding: 0px 50px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  border: 1px solid blue;
+ }
+ #moredata-more-insights-2 > div{
+  text-align:start;
+  border: 1px solid red;
+  width: 230px;
+  height: 100px;
+ }
+ #moredata-more-insights-2 > div > p{
+  margin-left: 0px;
  }
