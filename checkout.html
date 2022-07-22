@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Trial Plane - Semrush</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        h1 {
+            line-height: 0px;
+            margin: 20px;
+        }
+
+        #details {
+            /* border: 1px solid red; */
+            color: #767676;
+            margin: auto;
+            width: 50%;
+            display: grid;
+            grid-template-rows: repeat(6);
+            grid-template-rows: repeat(1);
+            gap: 10px;
+
+        }
+
+        h2 {
+            line-height: 0px;
+            color: black;
+            font-weight: bold;
+        }
+
+        #Emaildiv {
+            line-height: 0px;
+        }
+
+        #pt,
+        #pt1 {
+            color: black;
+        }
+
+        p {
+            line-height: 08px;
+        }
+
+        .flex {
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+
+        #form {
+            width: 100%;
+        }
+
+        form {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #767676;
+        }
+
+        #vlid {
+            width: 70%;
+        }
+
+        #cvv {
+            width: 50%;
+        }
+        .flex2{
+            display: flex;
+        }
+        #cardholder{
+
+            /* border-left: none; */
+            width: 99.5%;
+        }
+        #cardhdiv{
+            width: 100%;
+            /* border: 1px solid #767676; */
+            
+        }
+        .chi{
+            border: 1px solid #767676;
+            border-right: none;
+        }
+        input{
+            width: 100%;
+            font-size: 20px;
+            padding: 5px;
+            line-height: 25px;
+            margin-bottom: 18px;
+        }
+        #sel{
+            width: 100%;
+        }
+        select{
+            width: 103%;
+            font-size: 20px;
+            padding: 5px;
+            line-height: 25px;
+            margin-bottom: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #p2{
+            margin: 0px;
+            line-height: 20px;
+            font-size: 18px;
+            /* border: 1px solid gray; */
+        }
+        #p2 span{
+            color: black;
+            font-weight: bold;
+            line-height: 0px;
+        }
+        #bottomp{
+            display: flex;
+            padding: 0px;
+            margin: 0px;
+        }
+        #bottomp div{
+            width: 50%;
+            /* border: 1px solid gray; */
+            padding: 0px;
+            margin: 0px;
+        }
+        #bottomp div button{
+            background-color: #ff642d;
+            border: none;
+            font-size: 18px;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            margin-left: 5%;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        #imgdiv{
+            width: 100%;
+            cursor: text;
+        }
+        #imgdiv img{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body onload="rcb()">
+    <div id="main">
+        <div id="">
+            <h1><a href="home.html"><img src="https://i.ibb.co/XJ26L8z/logo-semrush.png" alt="logo-semrush"
+                        border="0"></a>
+            </h1>
+            <div id="details">
+                <div>
+                    <h2>GURU 7-day free trial</h2>
+                </div>
+                <div id="Emaildiv">
+                    <p>Your account: <span id="pt"></span></p>
+                    <p>Billing: <span id="pt1">Monthly</span></p>
+                </div>
+                <div id="form">
+                    <form action="">
+                        <div>
+                            <input type="number" id="cardnumber" placeholder="Card Number">
+                        </div>
+                        <div class="flex">
+                            <input type="string" id="vlid" placeholder="MM / YY">
+                            <input type="number" id="cvv" placeholder="CVV">
+                        </div>
+                        <div id="cardhdiv">
+                            <input type="name" placeholder="👨🏽  Card holder"  id="cardholder">
+                        </div>
+
+                        <div id="sel">
+                            <select  name="State" id="Select">
+                                <option value="State/UT">State/UT</option>
+                                <option value="Andaman and Nicobar">Andaman and Nicobar</option>
+                                <option value="">Arunachal Pradesh</option>
+                                <option value="">Assam</option>
+                                <option value="">Bihar</option>
+                                <option value="">Chandigrah</option>
+                                <option value="">Chhattisgrah</option>
+                                <option value="">Dadra Nagar Haveli</option>
+                                <option value="">Daman and Diu</option>
+                                <option value="">Delhi</option>
+                                <option value="">Goa</option>
+                                <option value="">Gujrat</option>
+                                <option value="">Haryana</option>
+                                <option value="">Himanchal Pardesh</option>
+                                <option value="">Jammu and Kashmir</option>
+                                <option value="">Jharkhand</option>
+                                <option value="">Karnataka</option>
+                                <option value="">Kerala</option>
+                                <option value="">Ladakh</option>
+                                <option value="">Lakshdweep</option>
+                                <option value="">Madhya Pradesh</option>
+                                <option value="">Maharastra</option>
+                                <option value="">Manipur</option>
+                                <option value="">Meghalya</option>
+                                <option value="">Mizoram</option>
+                                <option value="">Nagaland</option>
+                                <option value="">Odisha</option>
+                                <option value="">Puducherry</option>
+                                <option value="">Panjab</option>
+                                <option value="">Rajasthan</option>
+                                <option value="">Sikkim</option>
+                                <option value="">Tamil Nadu</option>
+                                <option value="">Telangana</option>
+                                <option value="">Uttar Pardesh</option>
+                                <option value="">Uttarakhand</option>
+                                <option value="">West Bengal</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <input type="text" id="gstin" placeholder="GSTIN">
+                        </div>
+                    </form>
+
+                    
+                </div>
+                <div id="bottomp" >
+                    <div>
+                        <P id="p2">Today's charge: <span>$0.00(inc. Tax) i </span></P>
+                    </div>
+                    <div><button onclick="placeorder()">Place the Order</button></div>
+                </div>
+                <div>
+                    <hr>
+                </div>
+                <div id="imgdiv" onclick="loginpage()">
+                    <img src="https://i.ibb.co/XJjL7rW/bottom-p.png" alt="bottom-p" border="0">
+                </div>
+            </div>
+        </div>
+        <div><img src="https://i.ibb.co/bvTwmCD/checkout-cd-image.png" alt="checkout-cd-image" border="0"></div>
+    </div>
+</body>
+
+</html>
+<script>
+    function rcb() {
+        let email = localStorage.getItem("email");
+        console.log(email)
+        document.getElementById("pt").innerText = email;
+    }
+
+    function placeorder(){
+        let cardnumber=document.getElementById("cardnumber").value;
+        let validety= document.getElementById("vlid").value;
+        let cvv= document.getElementById("cvv").value;
+        let cardholder=document.getElementById("cardholder").value;
+
+        if(cardnumber.length < 7 || cardnumber.length > 17){
+            alert("You Enterd wrong card number");
+        }else if(validety.length<7){
+            alert("You Entered wrong validity");
+
+        }else if(cvv.length<3||cvv.length>4){
+            alert("You entered wrong cvv");
+        }else if(cardholder.length<=0){
+            alert("Please Enter Card holder name")
+        }else{
+            alert("payment succesfull👍");
+             window.location.href=".login.html";
+        }
+
+    }
+
+    function loginpage(){
+        window.location.href="login.html";
+    }
+    
+  
+</script>
+<script src=""></script>
