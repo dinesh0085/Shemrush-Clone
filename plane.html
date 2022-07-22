@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Trial Plane - Semrush</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            position: relative;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        #gt {
+            color: #767676;
+            margin: auto;
+            width: 75%;
+            display: grid;
+            grid-template-rows: repeat(3);
+            gap: 10px;
+            margin-top: 0px;
+            padding-left: 60px;
+        }
+
+        h1 {
+            line-height: 0px;
+            margin: 20px;
+            margin-bottom: 0px;
+
+        }
+
+        .flex {
+            display: flex;
+            /* flex-direction: column; */
+            gap: 10px;
+        }
+
+
+        label {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        input {
+            min-width: 0;
+            width: 100%;
+            height: 35px;
+            font-size: 20px;
+            padding: 0px;
+            border: 1px solid #767676;
+            border-radius: 5px;
+            background: transparent;
+            margin-bottom: 20px;
+            /* margin-bottom: 10px; */
+        }
+
+        #submit {
+            min-width: 0;
+            width: 100%;
+            height: 38px;
+            font-size: 20px;
+            padding: 0px;
+            border: 1px solid #ff642d;
+            border-radius: 5px;
+            background: transparent;
+            margin-top: 5px;
+            background-color: #ff642d;
+            cursor: pointer;
+        }
+
+        #firstp {
+            font-weight: bold;
+        }
+
+        p {
+            width: 100%;
+            font-size: 16px;
+            line-height: 1.42;
+            text-align: center;
+
+        }
+
+        #loginabutton {
+            color: #ff642d;
+            text-decoration: none;
+        }
+
+        p>a {
+            color: #767676;
+        }
+
+        div {
+            display: block;
+        }
+
+        .rc-footer {
+            position: fixed;
+            height: 74px;
+            vertical-align: top;
+            width: 74px;
+            margin-top: -15%;
+            font-size: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 5px;
+        }
+
+        .rc-l {
+            transition: all 0.3s ease;
+            background-size: 40px;
+            height: 50px;
+            width: 50px;
+            background: url(https://www.gstatic.com/recaptcha/api2/logo_48.png);
+            background-repeat: no-repeat;
+        }
+
+        .rc-anchor-pt a {
+            text-decoration: none;
+            color: #555;
+        }
+
+        #offerdiv {
+            border: 1px solid #555;
+            justify-content: space-between;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .prodiv {
+            display: flex;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            padding-left: 24px;
+        }
+
+        .checkpro {
+            background-color: white;
+            border-color: #ff642d;
+            width: 16px;
+            height: 16px;
+            border-radius: 100%;
+            border: 5px solid #ff642d;
+            margin-right: 8px;
+
+        }
+
+        .offerprice {
+            margin-top: 4px;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 400;
+            text-align: left;
+            padding-left: 24px;
+        }
+
+        .offerprice>span {
+            color: black;
+            font-weight: bold;
+            
+        }
+
+        .offerheader {
+            
+            display: block;
+            margin-top: 16px;
+            margin-bottom: 8px;
+            padding-left: 0;
+            font-size: 20px;
+            line-height: 20px;
+            font-weight: bold;
+            color: #171a22;
+            padding-left: 24px;
+        }
+
+        ul,
+        li {
+            list-style: none;
+
+        }
+
+        ul {
+            position: relative;
+            padding: 0px;
+
+        }
+
+        li {
+            margin-bottom: 8px;
+            line-height: 20px;
+            padding-left: 24px;
+            position: relative;
+            
+
+        }
+       li svg{
+        color:red;
+       }
+
+
+        /* ............ */
+
+        .button1{
+            background-color: #ff642d;
+            font-size: 20px;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+        }
+        .button2{
+            background-color: white;
+            font-size: 20px;
+            padding: 6px;
+            border: 1px solid #767676;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div>
+            <h1><a href="home.html"><img src="https://i.ibb.co/XJ26L8z/logo-semrush.png" alt="logo-semrush"
+                        border="0"></a></h1>
+
+            <div action="" id="gt">
+                <div>
+                    <h2>Choose your trial plan</h1>
+                </div>
+
+
+                <!-- <......................> -->
+
+                <div class="flex">
+
+                    <div id="offerdiv" onclick="Checkoutpage()">
+                        <div class="prodiv"><span class="checkpro"></span>Pro</div>
+                        <div class="offerprice">7 days free, then <span>$119.95</span>/mo</div>
+                        <div class="offerheader">50+ tools including:</div>
+                        <ul>
+                            <li>
+                                <svg width="12" height="12" viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon class="points"
+                                        points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 5 projects
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 500 keywords to track
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 100,000 pages to crawl
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> PDF export
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="offerdiv" onclick="Checkoutpage()">
+                        <div class="prodiv"><span class="checkpro"></span>Guru</div>
+                        <div class="offerprice">7 days free, then <span>$229.95</span>/mo</div>
+                        <div class="offerheader">50+ tools including:</div>
+                        <ul>
+                            <li>
+                                <svg width="12" height="12" viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon class="points"
+                                        points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 15 projects
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 1500 keywords to track
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> 300,000 pages to crawl
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> Content Marketing Platform
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> Multitargeting
+                            </li>
+                            <li>
+                                <svg tabindex="-1" disabled="" class="" data-ui-name="Check" width="12" height="12"
+                                    viewBox="0 0 12 12" data-name="Check" data-group="xs">
+                                    <polygon points="10.586 1 4.415 7.172 1.414 4.172 0 5.585 4.415 10 12 2.414">
+                                    </polygon>
+                                </svg> Historical data
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- <...............> -->
+                <button class="button1" onclick="Checkoutpage()">Get free trial</button>
+                <button class="button2" onclick="index()">Skip trial</button>
+                <!-- <..........................> -->
+                <div>
+                    <p id="pinst">After the free trial period ends, you will be automatically charged the monthly subscription fee. You can cancel your subscription and request a refund within 7 days after your trial expires.</p>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <img src="https://i.ibb.co/bsNGpvK/trial-plane-side-div.png" alt="trial-plane-side-div" border="0">
+        </div>
+    </div>
+
+    <div class="rc-footer">
+        <a href="https://www.google.com/intl/en/policies/privacy/">
+            <div class="rc-l" role="presentation">
+                <div class="rc-anchor-logo-img rc-anchor-logo-img-large"></div>
+            </div>
+            <div class="rc-anchor-pt">
+                <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span
+                    aria-hidden="true" role="presentation"> - </span><a
+                    href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+            </div>
+        </a>
+
+    </div>
+</body>
+
+</html>
+<script>
+     function Checkoutpage (){
+        window.location.href="checkout.html";
+     }
+
+     function index(){
+        window.location.href="temphome.html";
+     }
+</script>

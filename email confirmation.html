@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign up - Semrush</title>
+    <title>Confirm Email - Semrush</title>
     <style>
         body {
             margin: 0px;
@@ -28,7 +28,7 @@
             display: grid;
             grid-template-rows: repeat(3);
             gap: 10px;
-            /* margin-top: 35px; */
+            margin-top: 60px;
             padding-left: 60px;
         }
 
@@ -38,50 +38,11 @@
 
         }
 
-        #imggoogel {
-            padding: 3px;
-            width: 100%;
-            margin-left: 40px;
-        }
-
         .flex {
             display: flex;
             flex-direction: column;
         }
 
-        .inline {
-            display: flex;
-
-        }
-
-        #button1 {
-            margin: auto;
-            border: 1px solid #767676;
-            border-radius: 5px;
-            margin-bottom: 25px;
-        }
-
-        .hror1 {
-
-            padding: 0px;
-            position: relative;
-            text-align: center;
-            border-top: 1px solid #d1d4db;
-            /* margin-bottom: 25px; */
-        }
-
-        .hror2 {
-            position: absolute;
-            top: -10px;
-            left: 0;
-            right: 0;
-        }
-
-        .hror3 {
-            background-color: #fff;
-            padding: 0 25px;
-            font-size: 14px;
-        }
 
         label {
             font-size: 16px;
@@ -174,28 +135,16 @@
                         border="0"></a></h1>
             <div action="" id="gt">
                 <div>
-                    <h2>Create Your account</h1>
-                        <div id="button1"><a id="imggoogel"
-                                href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.semrush.com%3Fid%3Dauth959416&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=455507004705-2uef3t7ptqmq1n64nm6emj44ql3rpeft.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.semrush.com&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow"><img
-                                    src="https://i.ibb.co/4ZV16Nn/continue-with-googel-with-logo.png"
-                                    alt="continue-with-googel-with-logo" border="0"></a>
-                        </div>
-                        <div class="hror1">
-                            <span class="hror2">
-                                <span class="hror3">or</span>
-                            </span>
-                        </div>
+                    <h2>Confirm your email</h1>
+                    <p>Enter Your Email again for verification:</p>
                 </div>
 
                 <div class="flex">
                     <form action="">
                         <label for="email">Email</label>
-                        <input type="text" id="email">
-                        <label for="password">Password</label>
-                        <input type="password" id="password">
+                        <input type="email" id="email">
                     </form>
-                    <button id="submit" onclick="Register()">Create account</button>
-
+                    <button id="submit" onclick="Confirm()">Confirm Email</button>
                 </div>
                 <div>
                     <p id="firstp">Already have an account ? <a id="loginabutton" href="login.html">Log in</a></p>
@@ -207,7 +156,7 @@
             </div>
         </div>
         <div>
-            <img src="https://i.ibb.co/3cZS2K0/side-bar-zic-zac.png" alt="side-bar-zic-zac" border="0">
+            <img src="https://i.ibb.co/6WG1sST/emailconfirmation-side-div.png" alt="emailconfirmation-side-div" border="0">
         </div>
     </div>
 
@@ -217,66 +166,26 @@
                 <div class="rc-anchor-logo-img rc-anchor-logo-img-large"></div>
             </div>
             <div class="rc-anchor-pt">
-                <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span
-                    aria-hidden="true" role="presentation"> - </span><a
-                    href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+                <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span aria-hidden="true" role="presentation"> - </span><a href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
             </div>
         </a>
-
+        
     </div>
 </body>
 
 </html>
 <script>
-
-    async function Register() {
-       let Email = document.getElementById('email').value;
-
-       localStorage.setItem('email', Email)
-
-        let formdata = {
-            name: document.getElementById('email').value,
-            email: document.getElementById('email').value,
-            password: document.getElementById('password').value,
-            username: document.getElementById('email').value,
-            mobile: document.getElementById('email').value,
-            description: document.getElementById('email').value,
-        };
-
-        formdata = JSON.stringify(formdata);
-
-        let signup_api_link =
-            "https://masai-api-mocker.herokuapp.com/auth/register";
-
-        fetch(signup_api_link, {
-            method: "POST",
-            body: formdata,
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-            .then((response) => {
-                return response.json();
-            })
-            .then((response) => {
-                console.log(response);
-                let gt=response.message
-                check(gt)
-            })
-            .catch((err) => {
-                console.log(err);
-                
-            });
-
+    
+function Confirm(){
+    let Email=localStorage.getItem("email");
+    let cemail=document.getElementById("email").value;
+    if(Email==cemail){
+        alert("Email Confirmation Succesfull");
+        window.location.href="plane.html";
+    }else{
+        alert("Enter the correct email");
+        window.location.reload();
     }
-
-    function check(gt){
-        if(gt==="Registration Success"){
-            alert(gt);
-            window.location.href="email confirmation.html"
-        }
-        else{
-            alert(gt);
-        }
-    }
+}
+   
 </script>
