@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    
+ }
+ #top{
+    width: 100%;
+     background-color:#111317;
+     text-align: center;
+     height: 3.5rem;
+ }
+#top a{
+    text-decoration: none;
+    color: white;
+}
+ #top ul{
+    
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+     margin: auto;
+     text-decoration: none;
+    align-items: center;
+    height: 56px;
+ }
+ #top ul li{
+  padding: 15px 0px;
+  cursor: pointer;
+ }
+ #top img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+ }
+ #top img:hover{
+    background-color: transparent;
+ }
+
+ .dropDown{
+     display: none;  
+ }
+ .deb{
+   display: none;
+   padding: 30px;
+   
+ }
+ .deb h1,p{
+   text-align: start;
+   margin-top: 10px;
+ }
+ #top ul li:hover .dropDown{
+     display: inline-flex;
+     font-size: 13px;
+     position: absolute;
+     background-color:#111317;
+     margin-top: 30px;
+     margin-left: -120px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     
+ }
+ #top ul li:hover .dropDown .deb{
+  display:block;
+ }
+ #top ul li:hover .dropDown .deb h1{
+   color:white;
+   font-size: 22px;
+   line-height: 30px;
+ }
+ #top ul li:hover .dropDown .deb p{
+  color:grey;
+  text-align: start;
+}
+ #top ul li:hover .dropDown .deb-img h1 img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+ }
+ #top ul li:hover .dropDown .deb-img h1{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+ #top ul li:hover .dropDown .deb-img  {
+  text-align: start;
+  padding: 30px 0px;
+ }
+
+
+
+ #Signin{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 7%;
+ }
+ #Signin > p{
+    margin-right: 10px;
+ }
+ #Signin > button:nth-child(2){
+    padding: 5px 15px;
+    background-color: #111317;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+ }
+ #Signin > button:nth-child(3){
+  padding: 5px 15px;
+  background-color: #00BC98;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+
+
+
+    #upper {
+        height: 400px;
+        width: 100%;
+        background-color: rgb(47,109,171);
+        text-align: center;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        
+    }
+      .outerbox {
+     
+          height :auto;
+          width : 80%;
+          justify-content:center;
+          margin:auto;
+      }
+      .firstbox {
+           margin-top: 40px;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: 500px;
+          gap: 20px;
+          text-align: center;
+          align-items: flex-start;
+          height: 500px;
+          /* display: flex;
+          margin :auto;
+          text-align: center;
+          justify-content: space-evenly;
+          padding-top: 70px; */
+
+      }
+
+      .firstbox div {
+          
+          
+         
+          /* border: 1px solid blue; */
+      }
+
+      .firstbox button{
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: aqua;
+        border-color: transparent;
+
+      }
+      .secondbox {
+        margin-top: 40px;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: 500px;
+          gap: 20px;
+          text-align: center;
+          align-items: flex-start;
+          height: 500px;
+      }
+      .secondbox div {
+        height: 500px;
+          width: 90%;
+          /* border: 1px solid blue; */
+      }
+
+      .secondbox button{
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: aqua;
+        border-color: transparent;
+
+      }
+
+      .thirdbox {
+        margin-top: 40px;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: 500px;
+          gap: 20px;
+          text-align: center;
+          align-items: flex-start;
+          height: 500px;
+        /* border: 1px solid green; */
+      }
+
+      .third    box button{
+        padding: 10px 30px;
+        border-radius: 10px;
+        background-color: aqua;
+        border-color: transparent;
+
+      }
+      .thirdbox div {
+        height: 500px;
+          width: 90%;
+          /* border: 1px solid blue; */
+      }
+      img {
+          width: 240px;
+      }
+      button {
+        margin: auto; 
+        background-color: rgb(223, 228, 230);
+      }
+
+
+      *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#semrush-bottom{
+    width: 100%;
+    background-color: #111317;
+    padding: 50px 50px;
+    color: white;
+  }
+  #semrush-bottom > #semrush-bottom-header{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 35% 25% 35%;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:first-child{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:first-child > div select{
+    background-color:#111317 ;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+  
+  }
+  #semrush-bottom > #semrush-bottom-header > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:nth-child(3) > button{
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #00BC98;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #semrush-bottom > #semrush-bottom-middle{
+    border: 1px solid grey;
+    margin: auto;
+    width: 93%;
+    padding: 15px 0px 20px 0px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  #semrush-bottom > #semrush-bottom-middle > div{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 13px;
+    color: grey;
+    align-items: center;
+  }
+  
+  
+  #semrush-bottom-last{
+    width: 93%;
+    margin: auto;
+  }
+  #semrush-bottom-last{
+    width: 93%;
+    margin-top: 50px;
+    font-size: 13px;
+  }
+  #semrush-bottom-last > #semrush-bottom-last-company{
+    display: flex;
+  }
+  #semrush-bottom-last > #semrush-bottom-last-company > div{
+    margin-right: 95px;
+  }
+  #semrush-bottom-last li{
+    list-style: none;
+    line-height: 23px;
+    color: gray;
+  }
+  
+  #semrush-website-copyright{
+    background-color: #000000;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+  }
+  #semrush-website-copyright img{
+    width: 160px;
+    margin-left: 8vw;
+  }
+  #semrush-website-copyright p{
+    color: gray;
+    font-size: 12px;
+    margin: 0px 0px 0px 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+</style>
+<body>
+
+    <div id="container"></div>
+
+      <div id = upper>
+           <h1>Ebooks</h1>
+           <p>Here you can find a range of downloadable guides in PDF format that can help you broaden your knowledge and improve your skills.</p>
+      </div>
+
+
+    <div class = "outerbox">
+        <div class = "firstbox">
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/ac/ca/acca1f9323a36c53f3889d74fd2704ca.png/resize/360x510/" alt = "Error">
+        <h2>The Ultimate Site Audit with Semrush </h2>
+        <p></p>
+        <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/5b/e8/5be8c829f5f366562d21a62c274a5db2.png/resize/360x510/" alt = "Error">
+                <h2>How Businesses Hire Agencies</h2>
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/ca/b5/cab57601aa08583b48c7ea7d487e1711.png/resize/360x510/" alt = "Error">
+                <h2>
+                    Getting Started: The Essential Semrush Checklists</h2>
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/68/61/686148dc119b388c02d9ed021cc1a4af.png/resize/360x510/" alt = "Error">
+        <h2>
+            Data-Driven Market Research and Competitive Analysis with Semrush .Trends</h2>
+        <button>Download</button>
+            </div>
+        </div>
+        <div class = "secondbox">
+            <div>
+                    <img src = "https://static.semrush.com/ebooks/uploads/75/04/750498f8f6b6fb431805f6e4bf171025.png/resize/360x510/" alt = "Error">
+                    <h2>State of Content Ops and Outsourcing Report 2021-2022</h2>
+                   
+                    <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/7a/45/7a4519be8f4398dd193d502977320cb7.png/resize/360x510/" alt = "Error">
+                <h2>
+                    The Ultimate Content Calendar Template
+                    Dec 09, 2021</h2>
+                
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/9e/21/9e21a8d00d00839f3a9c5d36b1f69a8f.png/resize/360x510/" alt = "Error">
+                <h2>
+                    The Ultimate Brand Storytelling Template for Your Business
+                    </h2>
+                
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/28/cf/28cfed8af84bf4446f61ff9a18440611.png/resize/360x510/" alt = "Error">
+                <h2>
+                    The Ultimate Content Mapping Template Kit</h2>
+                
+                <button>Download</button>
+            </div>
+        </div>
+        <div class = "thirdbox">
+            <div>
+                    <img src = "https://static.semrush.com/ebooks/uploads/31/f4/31f48c7248a93c8dbb1e5933483ceaea.png/resize/360x510/" alt = "Error">
+                    <h2>The Semrush Content Writing Workbook</h2>
+                   
+                    <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/61/39/613957d78f7f3c17186e2cefcb117be6.png/resize/360x510/" alt = "Error">
+                <h2>
+                    The Ultimate 2021 Blog Writing Checklist
+                    </h2>
+                
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/0c/0b/0c0b80f2a421a44daed49d22739a0b31.png/resize/360x510/" alt = "Error">
+                <h2>
+                    Semrush Keyword Difficulty: Why It is the Most Accurate and How to Use It for Your SEO Strategy</h2>
+                
+                <button>Download</button>
+            </div>
+            <div>
+                <img src = "https://static.semrush.com/ebooks/uploads/81/23/8123017476b526c1730ee6b59eb96c66.png/resize/360x510/" alt = "Error">
+                <h2>
+                    The Competitive Content Analysis Template
+                    The Competitive Content Analysis Template
+                    </h2>
+                
+                <button>Download file </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="ebook_bottom"></div>
+</body>
+</html>
+
+<script type="module">
+
+import navbar from "./component/navbar.js"
+import bottom from "./component/bottom.js"
+
+
+
+
+document.getElementById("container").innerHTML=navbar();
+document.getElementById("ebook_bottom").innerHTML=bottom();
+
+
+
+
+</script>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Semrush</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        #main {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            position: relative;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        #gt {
+            color: #767676;
+            margin: auto;
+            width: 50%;
+            display: grid;
+            grid-template-rows: repeat(3);
+            gap: 10px;
+            /* margin-top: 35px; */
+            padding-left: 60px;
+        }
+
+        h1 {
+            line-height: 0px;
+            margin: 20px;
+
+        }
+
+        #imggoogel {
+            padding: 3px;
+            width: 100%;
+            margin-left: 40px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inline {
+            display: flex;
+
+        }
+
+        #button1 {
+            margin: auto;
+            border: 1px solid #767676;
+            border-radius: 5px;
+            margin-bottom: 25px;
+        }
+
+        .hror1 {
+
+            padding: 0px;
+            position: relative;
+            text-align: center;
+            border-top: 1px solid #d1d4db;
+            /* margin-bottom: 25px; */
+        }
+
+        .hror2 {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            right: 0;
+        }
+
+        .hror3 {
+            background-color: #fff;
+            padding: 0 25px;
+            font-size: 14px;
+        }
+
+        label {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        input {
+            min-width: 0;
+            width: 100%;
+            height: 35px;
+            font-size: 20px;
+            padding: 0px;
+            border: 1px solid #767676;
+            border-radius: 5px;
+            background: transparent;
+            margin-bottom: 20px;
+            /* margin-bottom: 10px; */
+        }
+
+        #submit {
+            color: white;
+            min-width: 0;
+            width: 100%;
+            height: 38px;
+            font-size: 20px;
+            padding: 0px;
+            border: 1px solid #ff642d;
+            border-radius: 5px;
+            background: transparent;
+            margin-top: 5px;
+            background-color: #ff642d;
+            cursor: pointer;
+        }
+
+        #firstp {
+            font-size: 18px;
+        }
+
+        p {
+            width: 90%;
+            font-size: 16px;
+            line-height: 1.42;
+        }
+
+        #loginabutton {
+            color: #ff642d;
+            text-decoration: none;
+        }
+
+        p>a {
+            color: #767676;
+        }
+
+        div {
+            display: block;
+        }
+
+        .rc-footer {
+            /* display: inline-block; */
+            position: fixed;
+            height: 74px;
+            vertical-align: top;
+            width: 74px;
+            margin-top: -15%;
+            font-size: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 5px;
+        }
+
+        .rc-l {
+            transition: all 0.3s ease;
+            background-size: 40px;
+            height: 50px;
+            width: 50px;
+            background: url(https://www.gstatic.com/recaptcha/api2/logo_48.png);
+            background-repeat: no-repeat;
+        }
+
+        .rc-anchor-pt a {
+            text-decoration: none;
+            color: #555;
+        }
+        #password{
+            margin-bottom: 0px;
+        }
+        #forgetpassdiv{
+            width: 100%;
+            margin-bottom: 20px;
+            
+        }
+        #forgetpass{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            color: #ff642d;
+            text-decoration: none;
+        }
+   
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div>
+            <h1><a href="home.html"><img src="https://i.ibb.co/XJ26L8z/logo-semrush.png" alt="logo-semrush"
+                        border="0"></a></h1>
+            <div action="" id="gt">
+                <div>
+                    <h2>Create Your account</h1>
+                        <div id="button1"><a id="imggoogel"
+                                href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fwww.semrush.com%3Fid%3Dauth959416&response_type=permission%20id_token&scope=email%20profile%20openid&openid.realm&include_granted_scopes=true&client_id=455507004705-2uef3t7ptqmq1n64nm6emj44ql3rpeft.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fwww.semrush.com&fetch_basic_profile=true&gsiwebsdk=2&flowName=GeneralOAuthFlow"><img
+                                    src="https://i.ibb.co/4ZV16Nn/continue-with-googel-with-logo.png"
+                                    alt="continue-with-googel-with-logo" border="0"></a>
+                        </div>
+                        <div class="hror1">
+                            <span class="hror2">
+                                <span class="hror3">or</span>
+                            </span>
+                        </div>
+                </div>
+
+                <div class="flex">
+                    <form action="">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                        <div id="forgetpassdiv">
+                            <a id="forgetpass" href="https://www.semrush.com/login/restore/">Forget password</a>
+                        </div>
+                    </form>
+                    <button id="submit" onclick="Login()">Login</button>
+
+                </div>
+                <div>
+                    <p id="firstp">Don't have a Semrush account?  <a id="loginabutton" href="signup.html">Sign up Log in with SAML</a></p>
+                    
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://i.ibb.co/hVyk3j8/login-Sidebar.png" alt="login-Sidebar" border="0">
+        </div>
+    </div>
+
+    <div class="rc-footer">
+        <a href="https://www.google.com/intl/en/policies/privacy/">
+            <div class="rc-l" role="presentation">
+                <div class="rc-anchor-logo-img rc-anchor-logo-img-large"></div>
+            </div>
+            <div class="rc-anchor-pt">
+                <a href="https://www.google.com/intl/en/policies/privacy/" target="_blank">Privacy</a><span
+                    aria-hidden="true" role="presentation"> - </span><a
+                    href="https://www.google.com/intl/en/policies/terms/" target="_blank">Terms</a>
+            </div>
+        </a>
+
+    </div>
+</body>
+
+</html>
+<script>
+
+    async function Login() {
+       let Email = document.getElementById('email').value;
+
+       localStorage.setItem('email', Email)
+
+       let login_data = {
+            username: document.getElementById('email').value,
+            password: document.getElementById('password').value,
+        }
+
+
+        formdata = JSON.stringify(login_data);
+
+        let login_api_link =
+            "https://masai-api-mocker.herokuapp.com/auth/login";
+
+        fetch(login_api_link, {
+            method: "POST",
+            body: formdata,
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => {
+                return response.json();
+            })
+            .then((response) => {
+                console.log(response);
+                let gt=response.error
+                let token=response.token;
+                console.log(gt,token);
+                check(gt,token)
+            })
+            .catch((err) => {
+                console.log(err);
+                
+            });
+
+    }
+
+    function check(gt,token){
+        let arr=[];
+        arr.push(token);
+        if(gt===false){
+            localStorage.setItem("Token",JSON.stringify(arr))
+
+            alert(`Login Succesfull token number:-${token}`);
+            window.location.href="homepage2.html"
+        }
+        else{
+            alert("You Entered wrong Cardentials");
+        }
+    }
+</script>

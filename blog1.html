@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    
+ }
+ #top{
+    width: 100%;
+     background-color:#111317;
+     text-align: center;
+     height: 3.5rem;
+ }
+#top a{
+    text-decoration: none;
+    color: white;
+}
+ #top ul{
+    
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+     margin: auto;
+     text-decoration: none;
+    align-items: center;
+    height: 56px;
+ }
+ #top ul li{
+  padding: 15px 0px;
+  cursor: pointer;
+ }
+ #top img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+ }
+ #top img:hover{
+    background-color: transparent;
+ }
+
+ .dropDown{
+     display: none;  
+ }
+ .deb{
+   display: none;
+   padding: 30px;
+   
+ }
+ .deb h1,p{
+   text-align: start;
+   margin-top: 10px;
+ }
+ #top ul li:hover .dropDown{
+     display: inline-flex;
+     font-size: 13px;
+     position: absolute;
+     background-color:#111317;
+     margin-top: 30px;
+     margin-left: -120px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     
+ }
+ #top ul li:hover .dropDown .deb{
+  display:block;
+ }
+ #top ul li:hover .dropDown .deb h1{
+   color:white;
+   font-size: 22px;
+   line-height: 30px;
+ }
+ #top ul li:hover .dropDown .deb p{
+  color:grey;
+  text-align: start;
+}
+ #top ul li:hover .dropDown .deb-img h1 img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+ }
+ #top ul li:hover .dropDown .deb-img h1{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+ #top ul li:hover .dropDown .deb-img  {
+  text-align: start;
+  padding: 30px 0px;
+ }
+
+
+
+ #Signin{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 7%;
+ }
+ #Signin > p{
+    margin-right: 10px;
+ }
+ #Signin > button:nth-child(2){
+    padding: 5px 15px;
+    background-color: #111317;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+ }
+ #Signin > button:nth-child(3){
+  padding: 5px 15px;
+  background-color: #00BC98;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+           #upper 
+           {
+               height: 300px;
+               width: 1200px;
+               background-color: rgb(243,176,110);
+               display: flex;
+               margin: auto;
+               padding-top: 100px;
+               justify-content: space-between;
+               border-radius: 20px;
+               margin-top: 20px;
+           }
+
+           #upper1 {
+               display: flex;
+               justify-content: start;
+           }
+
+           #check {
+                   display: flex;
+                   justify-content: start;
+           }
+
+           .first 
+           {
+               height: auto;
+               width: 1200px;
+               display: flex;
+               margin: auto;
+               justify-content: space-between;
+               margin-top: 50px;
+               border-radius: 8px;
+           }
+
+           .first>div>div:nth-child(1)
+           {
+               height: 300px;
+               width: 300px;
+              /* border: 2px solid red; */
+              justify-content: space-between;
+              border-radius: 20px;
+           }
+            
+           .first>div>div:nth-child(2)
+           {
+               height: 300px;
+               width: 300px;
+              /* border: 2px solid red; */
+              justify-content: space-between;
+              border-radius: 10px;
+           }
+
+
+           #green 
+           {
+               height: 300px;
+               width: 1200px;
+               background-color: green;
+               display:flex;
+               margin: auto;
+               margin-top: 100px;
+               margin-bottom: 100px;
+               justify-content: space-between;
+               border-radius: 10px;
+           }
+
+           #green>div:nth-child(1) 
+           {
+               height: 90%;
+               width: 60%;
+               padding-top: 60px;
+               text-size-adjust: 20px;
+
+           }
+
+           #green>div:nth-child(2) 
+           {
+               height: 90%;
+               width: 30%;
+               display: flex;
+               padding-top: 30px;
+               justify-content: space-around;
+               border-radius: 10px;
+           }
+
+           #blue 
+           {
+               height: 300px;
+               width: 1200px;
+               background-color: rgb(108,224,248);
+               display:flex;
+               margin: auto;
+               margin-top: 100px;
+               margin-bottom: 100px;
+               justify-content: space-between;
+               border-radius: 10px;
+           }
+
+           #blue>div:nth-child(1) 
+           {
+               height: 90%;
+               width: 60%;
+               padding-top: 60px;
+               text-size-adjust: 20px;
+               /* background-color: rgb(71,54,131); */
+
+           }
+
+           #blue>div:nth-child(2) 
+           {
+               height: 90%;
+               width: 30%;
+               display: flex;
+               padding-top: 30px;
+               justify-content: space-around;
+               border-radius: 10px;
+               /* background-color: rgb(108,224,248); */
+           }
+
+           .author {
+               height: auto;
+               width: 190px;
+               display: flex;
+               justify-content: space-between;
+           }
+
+           .about {
+               height: auto;
+               width: 200px;
+               display: flex;
+               justify-content: space-between;
+           }
+
+
+           #firstl 
+           {
+               height: auto;
+               width: 1200px;
+               display: flex;
+               margin: auto;
+               justify-content: space-between;
+               border-radius: 8px;
+               margin-top: 80px;
+           }
+
+           #firstl>div>div:nth-child(1)
+           {
+               height: 300px;
+               width: 500px;
+              /* border: 2px solid red; */
+              /* justify-content: space-between; */
+              border-radius: 20px;
+           }
+            
+           #firstl>div>div:nth-child(2)
+           {
+               height: 300px;
+               width: 500px;
+              /* border: 2px solid red; */
+              /* justify-content: space-between; */
+              border-radius: 10px;
+           }
+
+           #choice 
+           { 
+               height: 400px;
+               width: 1200px;
+               display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 200px 400px;
+        grid-row-gap:20px;
+        grid-column-gap:20px;
+        margin: auto;
+        text-decoration :double;
+           }
+
+           #news {
+               display: flex;
+               height: 400px;
+               width: 100%;
+               background-color: rgb(248,197,0);
+               padding-top: 70px;
+           }
+
+          #checklist 
+          {
+              height: 300px;
+              width: 100%;
+              display: flex;
+              justify-content: space-around;
+              background-color: rgb(71,54,131);
+          }
+
+          #checklist>div:nth-child(1) 
+          {
+              display: flex;
+              height: auto;
+              width: 50%;
+              justify-content: center;
+          }
+
+          #checklist>div:nth-child(2) 
+          {
+              height: auto;
+              width: 50%;
+              
+          }
+
+          #checklist>div:nth-child(2)>button
+          {
+              display: block;
+              height: 40px;
+              width: 30%;
+              color: white;
+              background-color: red;
+              
+          }
+
+          #checklist>div:nth-child(2)>h2
+          {
+              display: block;
+              height: 40px;
+              width: 30%;
+              color: white;
+              
+          }
+
+          #marketing {
+              height: auto;
+              width: 52%;
+              display: flex;
+              /* justify-content: space-around; */
+              justify-content: start;
+              cursor: pointer;
+              margin: auto;
+          }
+
+
+
+
+
+          *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#semrush-bottom{
+    width: 100%;
+    background-color: #111317;
+    padding: 50px 50px;
+    color: white;
+  }
+  #semrush-bottom > #semrush-bottom-header{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 35% 25% 35%;
+    grid-template-rows: auto;
+    gap: 30px;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:first-child{
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:first-child > div select{
+    background-color:#111317 ;
+    width: 100%;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+  
+  }
+  #semrush-bottom > #semrush-bottom-header > div:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #semrush-bottom > #semrush-bottom-header > div:nth-child(3) > button{
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #00BC98;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #semrush-bottom > #semrush-bottom-middle{
+    border: 1px solid grey;
+    margin: auto;
+    width: 93%;
+    padding: 15px 0px 20px 0px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  #semrush-bottom > #semrush-bottom-middle > div{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 13px;
+    color: grey;
+    align-items: center;
+  }
+  
+  
+  #semrush-bottom-last{
+    width: 93%;
+    margin: auto;
+  }
+  #semrush-bottom-last{
+    width: 93%;
+    margin-top: 50px;
+    font-size: 13px;
+  }
+  #semrush-bottom-last > #semrush-bottom-last-company{
+    display: flex;
+  }
+  #semrush-bottom-last > #semrush-bottom-last-company > div{
+    margin-right: 95px;
+  }
+  #semrush-bottom-last li{
+    list-style: none;
+    line-height: 23px;
+    color: gray;
+  }
+  
+  #semrush-website-copyright{
+    background-color: #000000;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+  }
+  #semrush-website-copyright img{
+    width: 160px;
+    margin-left: 8vw;
+  }
+  #semrush-website-copyright p{
+    color: gray;
+    font-size: 12px;
+    margin: 0px 0px 0px 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+    </style>
+</head>
+<body>
+
+<div id="container"></div>
+
+
+    <div id = upper>
+        <div>
+            <h3>Long-Tail Keywords: What They Are & How to Find Them</h3>
+            <p>Long-tail keywords are highly specific search terms that drive targeted traffic to your site. Learn how to find and use these keywords in your content.</p>
+            <div id = upper1>
+                <div>Jul 06, 2022</div>
+                <div>Keyword Research</div>
+                <div>6 min read</div> 
+        </div>
+        </div>
+        <div>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAADKCAMAAAC7SK2iAAABWVBMVEX/////sm4AAAD/tG/k5OSamppSUlK7u7v/t3H/r2j/uHL/067/sW3/9Or/rWL/r2fs7OxDQ0P0qmntpWbamF7r6+v39/dCLhy4gE/hnWH/tXTNj1jb29vzqmn/+vXoomSUZ0CteUvR0dHGilVZPiahcEVPNyL/6tleXl6mpqZ2UjNpSS3/3L++vr7/5dBFMB55eXn/vYMxIhX/xJCJXzuXaUFubm4aEgv/2bk+Pj7/y596VTQnGxGIiIilc0f/4cgeHh5zSBw3MCqJWi8sLCz/wIludXqDg4NnRCNEOTFRSED/zqSUlJRmZWQZGRgsGABNOyw6Qkbgu51vZV4TAAAwEgBXYWjvu41mPxZKLAzeybbu4ddOKAAkDwAzKSE/SlEACBd+UCKIZkcTIyxdTkCRf3IoIx7GrJWgeFanloc6JQ49HABlPA5cQy1ENCdRNBi2rqakajLUpnx0aSfRAAAftklEQVR4nO1d62PaRrZHGh6DohgQMhIWtgCBAigEggGHYHAcvx07TXbb3LTb2253u3v3pk1ze///D3dmJKHRi4cRTnbvnn6oHQuYH2fOc845E4v9m/5NUdDew4d7n3sNn4mep3fOXj178vBzr+PeaW8/w/B8Os3zO/vPHv2T8T+eWufVz9OMRXw6s4XhR7WuzVAhS/1SZYfxVd/AfsHe/gy5BT/N7OwffcHMLzXpX1j2daKwysvjE9b66bkbuc195uzBk+hWGyklutQvCDr71dXyu75w85K1oCM5DyY+wzx98EXyPveC4jKGftA/blSXe20qeXLIjvBPe8/DkJvo0/uPvzi1X3jBUtJdeoGwsxXtzU02/CU2bXdb4iHLXuCf9wN2u4vS6Z39J18W69ssm3B+i48wdFbhT3LtRa9sXsmCjh5OYZ4vQk7kfmvnwZek8xMs23B+s6CzCix+vJ2r7rZvW3kwxs9Wl+D5DD3Y/2LAF25Z9nR79qsNnRU5UHnbDH9dsycDroKffF3aC9VwQRt/a//oy9j3cbx6Z2/PoB+qEP7htrsd/KrC0FABVMiTye1leW6D58+O7gndXCqkJsO2o+cKDdamPABHzdNAiU+9rEAABIk898dVeG4Sv7Xz+EvgfJvScjR0PQ/4R9lc1/+KhC4ChuFa5nN9blXkGHzm7Avwc1Ih0FlDYHYexRKjkvv5bPKYQciBbD1WgXeAjjn/+RWeC3qs60Bny4Df2YulTl3+TemtjFcOhEPrqSK4E3Qk8+DVZ971bugTCjo75dJne7F4ktL01a9FiHnOSPZDd9nvNvjMs88Kfg50ZN7Tz5Haz82wV1+rhMnQ3u6stAZ0BP7p5xR5N/QbF/ReEWw9QxogaSn67a9N5KA4e6R+N1G3ic88/3y+vRt60wWd1Tms6mKlEXHpCw3NFGxbu+ONcVdRtynz+Rjvhp5yQ2dbDFZ1seaE/PHS3N1Qo/fFmtAx4z+TxLuhVz3QWQ1mHmAvD7O9UeTw9gaCQX01EVD66edx79zQC17orAAYtCMbOH3xTStnIOxAcf56R6vuIT79WSTeDT3mg97n+Kdox6OnEqft6lvOJenI3Y0COpL4nc/g4Hign3qhHygg8ziW6ma7Q2z76oDhnD/W1jJtNPHMg88Nfehj+5jhz5Bf00DGPd5ALg0nOH+TI2I6pq17d+480L0qHhGDDFycNXOVzdPrk4rD9N3okGNtd88C74Fe8kMvgvSjd5ZTUy0Ubv7uMD0SJedg37lfTe+Bvj3yQe9D/uw/Xr16ZmcVS/YjeoTbnRDP36vAe6B7vHhMBoeUUDqd2Urvm45XNkn+vbOeegcg4OWZ/XsUeC/0ql/PzbZ1mnlKbFAW830NR24GGkDve6TP7k/gvdBjtx7kNUCv2fQ6C0m2z9wNOQBwV6n8dPz+20+60a9oeehWGOn7s/A+6HG3tDvbGgChUhYzZ2hp8eRpTfFxbCngvHKpX0+qpdJ3/1sUlUFNNyqC61u8P+w+6J4trzrLKnfKA0kG6Sex5k2slJNXBw7V+m/nTqrzyXPEcq2su79GnrmnWM4P3WXbZ/E4AH0jz3GaAdHS4o2bwnZSW9G2Aaby4cad6nu0nwFQ0PRWkXovfud+sAdAR/t5JujCbEH9PrebLxoVwPBbR7FmI5djd1fb8trBuf8oD4MHHAIvOG/GI9f5HigIemz7woKuzJghsEZNknp1vEKyJeOl5vEKqg4yl6eBB7h7DzI8A4V+b9dhPM/fh3MTCB1Rs9vInbao8ESuoP3OmULJb5EtmVvevnHa18Ow09snOzx+oEc5h3zm2YbwUhQGHZeajBSXYaOQ8EQNJ5YNXwAnsxfhx5ePMHYoSjL1TWc2L+/h0GOl9+Ebmt/500WsfbKsouuzc0s1HgIeZ38k6qvk0xuX9znQu67wxOK6vTj+7F2hfblUvA6YgVmAEE5PGIxdlFRa123avodDj49cyDV80sbAStFeWqu6JHRYn7fbTTrawg9qEmU0Nm7jwqG7gYEKPlgETC1v/4N6/e6rZaBDjT1dvA5SjMMNDNq3AZv158Oh37py7KAoIXcbyp3ZVgDCd3Zifh4B8ZANLUuKYyKa/+FTvOUZg/aTNpy8CIf+QWUYSs9BuTeQy3S8xu/HDxebN2iwASfVhKpdUraUJCrwKEO+J12gXpt+uskYNhR69RifKyr52TqAOmjVXajSD6o/CAuw4/OKEIPupAZGuLoBs53hWlNXLLPJ+D0U+gS778BwoKPoA3qitcyj1PcLsAs6exP8AchjrPVbHYL9NG6zXe25En74vHNTFAq9gTU6MOZmHvmne4lP/DzsuAShFPj+N2x9F21uIT8+wNiRR3uG2Q7KU5ezsEF3Pgx6NocRca3554mZ57HUN8V5jk2NHQYbtv8UOaRJ0H9Q6SHszVjsAa5HApo7uc8zGzPvYdCrb/AKYH+Br5o5iqV+UILSbCbT8wRU0Oc6eS+oHLJsoxB7REqxgO5WnfzOptR8GPQUcVLhtO/ya7zCDhi0sHjyZDeE8bDMssFMP6e2E67Ae4HEArvyDBx7DvJwace9Qm+aJlut0X681p8WaQ4DrIORcEw6shDo73M19kXw+5+nAfU2LKm6JPWmQPQe36Y3lKIOg35O/FaGk8TZEuHAOBzXWqqzZOvM9TX74t3bcgByUOzRdagUZX90+UstAv0xKcHb7eQ9b7O1mQg2BHrhjSlxsDJ21qiC+oCRi7PfEU9tw1wqsQG2AGhhoh57p9K7RybQH20R6LoX+oZUXTD0vbNP1ufvSrTWAT1anXOzGoMX1eyfA2wBDDVtsQltw8CATW4jZ5b8LOg+F5HfiEcbDH1fsLNyyNjQ3my9xlG/TSno+JTGR/1Q6NX3lNIAfeLsPtwx/Xi/d7wRzyYI+t5ZRp3pGq5PYQfMeEBvAht6rlBNXgVo+XEo9FiDYjvoEWeXhDAM0woIDNIbSNYFQN/bTwPNMWqCRGdLhUMqtgL2gXM3lmv+McClnQO9dKrY2wQWzX6EOdD5DQQyfuh7T9NoK5ed4LTISuJsm4N8T3a2KqcdkP1eSk62f/ZteLR3w6HH4rmTPAcAgED7YOrC8A1vGtFNQyf9arBM1QIij+OgznAEMGDgrj515B0W+9i6vb6INce+DQ+Ezhzose3JtydyUaz/anebPCRvK3QCI+Ho85Re6JjnXpeK1IWWxWIecowqahLbU2biDwAn45iz9FIIWG8r1LgRyia6t7fOgUyYcSMUvZb3QLd6FGHL5bubRYK9Tr/fsuqC+yIHyQk5gGoHrb09CnL2QZ1dlJCk6Ynp0kiB0KPX8m7oJs+xxXannmBx5r0Qqkw7BwOxWMzni3JPGjZe1wLrDCBSg8nl1/KKOLJKWB3iVsRb3gV91pfKGbaDYv9PqNPQJWYX2XTJ0Gu1vpq/ZLXg2I00DCy/FqLgYX8aEgvxEadsaOg2z7GLSlx3FKkJDDRhgfz40MGOohhBrknjgSL38TlpcNSKffj5hw80PSSmDdRC830Rpy0o6FQvsgmdU+snv/40kHnCBgDF/sHsCBZZMghEeTqoVxQubK0o+F5B2B+bgVstNPPBg0jZ7kB3eI6hY7aOr27a2Xhq+EY2vRXACJohmbwnAoGNsr8ehiKIxGQU0jLmJfObB/V+eNInE2n4OoPu6tTD0PPfJ6xUammCQlfr3IljRLkynf5lPAcwxXUBWbclu8Ifkf0uSHPy29FmbGbQj+h+Na6mgktKC1RHU8eQQ0RP34qLjxoByF8mw10aD5FEBQqS571jpAZuBv0B3aTI1fLyOf1YtnvsWsPOd1cLy+YAUvDhh5leekj8GT7YlZvRVoSRexj0Ys0joheXrrOBZ81jZi5hlueWZrkl6Z5coJ+iNHAh0I3y0Pvk5D29hJ2988Hc8jEgHyzP8ljsGZY3qHSC3GGaIjRwYdC/9x8Rdi8prJnHheTUKXv0ujSAX4XlaLsT7Z7vLDy/xI0JEVEY9CCTdF6nzhqZh7EfB9buhMWTE1r0AadJIcdNwWRF6rXK4lPr6NzZEOiXvv2OqHBKpSmQss02TvCpE1Jnv6USl1Quh6+Plhx3YRERdK41XqIkK7rAPQx6INPif6V4i1PEEx25PurlO+QAnM84BsTfJt5XZidzJkAQlwIIRn8hbkJRsX0l6LH295Qa4tEa2l+fFL8iXnr2pZmxB9zJSx/Lq7k5gbuZHBE6SyKPzLavBj02GTvSyGeO8Ggae+pB+5OAHX3lw43Xfcua/aIh545PdtKkcEELDwXctBWRSxcMHU5DoBd+VKjCPoDzpBf2O3TrHADTl75ILZ6zYp5kwKbfewZ4AHfHkrJsIVpkbA+GDhSftNo46AIvZgt5GFm7u7+QU4q/nXtfUMAsHwu75LgiV3Jzfu+IyQCoTtnysixnovPkQ6CLYfUvscR7mj24KbOatPBUv/7BJ+XbuH1siovpzfOKIR3NHJ1lIIdC4fAQPZjt0QRwwdAZ4V1ovHUuQ8Ypb+PTTx9d2NLR9r0IF5jreeIKAaFvxrvJRKkUzz589EpVi9r4kNXFFbsKSIvx5qAnQ0cxZXuq6+iZz5x9CLHiBczy+uxoAoiVjiX2L3823l/2cDlFX5lbkRJI0bg1IRteuAofPJe6ZMruigMxF/hFtU8Ry0XaywNMvmzUJDPZc9CrjTUhsPNpAUXj1oRwnbmc44EPZUEnbOfNZyE3DVANBVIcdiJ4NDfkgKrIiDSl6C3SWJaiUXQh0MHJHE80e5Wv2XEGz4Ddfr7mh14dsexpu3BzJfrgAZvuhBtTJGXTIdChPC/8uPkkUYUEQDr1Z10TiOO3WGiqV3Jk/c4O9CjC9jCua7chLyiULq5/7rskWPMZc9wx9tryXEvJ+t3ZG0aZCHZ8GHT5deDj8WbufUX0yGj+W89TmOVOUq7QOImc71GY9rANPw06NcneXJ3keZ9ugj+5PNQ4Nml/o0x89t0SFdSrEb8TLXSArQ9RP1DUD/0qvvryROAClBOs0FqujU8mFVffzvbLtYe4+LCvb9op6EDYVRQBR6WCIsllX5CZ+sGvrAkBkaoQwz2xYxTWu7Zk9e+LKqhXpQh2vANdHUtGf1yTdF3v1TRO9OquZmgRNAU9hbyYwwqJRbboxaUuV+iJW4YiSM3OoP/XB1llOCCoRVFUkY/F/+j20EovQxPv3IltCSfEZbdNPl3604hyrgWhtXW8DT37dZEcqZrCjpdZcwv7MDSg5qY5U6dV8XyTitMURdeAbJ8uSjOvSJm1a6ps6JN/eNPJv7v8lOy3gUsHADKDP5ueHzZpEt2U7Cp7StxpHmE4re/HW9CzuWeWcZt1NCmueogb34E/PnzjBGXKviV5a9L33megQBky1/JGEWt5PiLo1aQFHY4toQTqB/q5hmfhKArR6kgrsmyX7PYE3uwa7tfS6fZMalemjiNFzvDrHr9Z0NvdGdftpiZ4SUUwhWtXVA3yAyvwviUaoYSHUrZQkAZl2rsnBxWzt0iqkbJ9bfNmQU8lbOigYphbG1ao/FzJVRAIirqF3DT+qRdEvyEBqHuGTdLra0Yr7WuHMDb0Gxs6wxkyJFoevnXSFWY/iI3cGrv2wvxuspjltSLHqRXfmB6a7bFciEt0N1o7aLc3/O0MOlBaAOcSNPXEcc2rH2noKkFuteKnsH4bMFyxfFDr+Y6O6MxxItoQbt1+Xwt6KTmDzuz2JKPV77eMr3IO9BnXAVaFGHmDqLcCnr/aEfPKYc8Q65Lf9qcd3mx/itS2r1tZY9v1pBm55ftInfUHHERyC5RvZuFX6WcLFHL0GA5L+msiDfhEie1P+weSXORUNmBHU9JeaKw/j5F+5zUtuw394h+QsMRQwKzVjKvPUjXZa0AsPsQdeKT7ATs85HiBPezpY5VBrkwnaL4oLZLNpXv9l6I1LbsNvforo0wBLuPhQNGqbUB+/Izt13lSrA0rfWTB+kjFFbCUkMrJukbKpmGlFxiiUOFr/E2kQUxmPRU/C19+E0UJ9xt2VABJ9wkQxLJ9lBhvnGoA55WRDuQI9JtCHMUqPb2et9PJ+aDtjnnDOJ8WbRCzZp34DPp/j2EN+RywXAZcTYNcvo4l2nRmm6fVRB2Svq98jSHQbxHH65U8B20+cuOwsl5qhamTSIV9vSawGfQ/fNit49aHvCRyuiiUe6bPUsUs72Zj8fcMKRnmpCKAA1bSp/k8oJuWxNBRZJR9CwmC7gp9vSNXJ1WhSUUJhdpQkRR95q2xt7FmjoRwDbWO2wNwuTjX6kPOq7Ba5TBfjVJ00Tqz/Hotnw50UK6R8yQgs/JsHDb7Otc1UxbNE6L4gTwGnO6TauTlBBfwY6KCmEQ0k2ct6Ov5c3RasnLAiviqgwPBGY18OilVU6nJu7+y7FTCcp2X8mrNtwq0EeaUtjoFX+2PEfrxa3Y90mlJqHQ6KsOMkTdqdIzeAabT3MsfvvpWLhaLinSIHXQU3hi+eZqA6c2LxrdmG7NwHZ2wrzuly5WHRwqso0t9JPHgUOYoItGMdkDOVznWz2BY1+dxk1rjMDLzxjNrdvl6jiDArkjatJHA+7KQQGMViNt8fMPWAGPMlWFKFbejMm/rT+jynb5YRwxcWfd9GhR7A23a84/YA0V27j6mGrUK34arw1WIZ9Y+bA07X2eYgwE3+xgboiobdZ/5BpCr9OYfMVDJpGhCmCimsoVCR5wMSD/7RzZwqtI6WDQtnYovU/4uyNUpAp7P4zrU2AX+BwAcp/V7vUrxcIHyosxb6Wp98xbNJL5w6Ejc2TkfD6AgyvpBbSBwgDtclGimKhxv1z52jYTnc6Ezgt4PLPpAho4T5L7O1mSR+PFwXq8OIcqhWzto59cMW5aBznAHHsccHzuAfFHpS5IxKNrlMED0u3ceoiOND+qip+cj5yNqhJgLHYhsBeeqCGHXhlcq5bHUMyqaSuk77wShoPVSfcgXa+34qHi+ADrGrpfr9fqgP24ZekfSjdZAw1VTrsUvAZ0uBajO9fwWvU9UPF8EneFkdqxVEOHstFjcRXsgoOgrry9MPKVfzT6ykLz7eHWej25GzQLoDJQPFbzn5xa6cb0lDhec2DpxZ2eWj3JcxyLoDDdltUUblJsbt5m0RS36lzsmLKLk+RLQ8RiSRZc+cIeLNRedNZ+EtajPp4hnSS+GjuV9QRMWd7A4FKVTKqUf7gI9Wp4vBR1p8AOrmw/wgQ9wvSXyTnRd6/kdLg+JfJ7wMtBRtHo4tkKzQOywX14svHRfYvaXlUPXtTMTd4OOZ2JJ5uCtQL4DcUHQSog+Gb1YVdo3MEN6Oej4UgA2ZI4iit+Y6fxUhUm0otserZajiyhiuQt0RBo7tqbDO6CJqRfHemvBVSjm6+gLLm5WCmI2Mjd8eehQNQ5lDpg4SPkUU1TkQU0yKnmuPDcBAQQyg5Dy6GKxqxWyNZvg+SrQEeQp29IgLioUFK0+NmqSPpZFlYGLMrKgKJkQqCOD5vHS0Dc0K34F6Dg7UcOnq52O0RqXK0oeX5BgGj1VmuegAcWcAO46JHu37A0im+H5atAx48WDXp0RIOcZoswdzrPssF+xpJ1ie/zDcu7sxu6FWA06GTTWYbW8tx0A1udNFoGs5ei62N58P+clDnJmU7eBrAgd4xBktlf29AQANWiiqP0KeTZMnZb2QmOJLR9dZiIC6DgBLRqsLhYZKlHDt0J3PGCM2dU56TPqs7d/W7jlN3kDzF2gY/B945A1+kWi6DD/4TT0emYgss4FMq7GjeavC6Bv9B6Qu0FHEY3BMbKhs7WKKBbVPM8xUljMzums0wfqHhY4mZ+02OytP3eFLuh5pPIETSaVJ5LR74ddTQ0VlqU89gzt1xRy88Q9wjxchNAZzpw+CSCKZwRBEHtjLaSuQtBZV21Vmt7y2dPwWVaRZqMihA4025oRWef0PKMHBuG43MoF3T0StiqF5SijzkxEBt09/RIwNVwyGADdvKXeFaa5XPlY8zI43t00z9eAzowptQaKNY4RJH+Gjkz8Z1m38neXNE8ug3r3N+W9RgEdyNR8bAKd63srTZDfaxYjuaF7Kp8mAXzfPM9DpxZYIjwPutqhRi8VyflLz3uaZs+U9pj8tHuG1oWP7/fA8xDoACtt0uIJrMOHAOyQKqSyoHvnoM5urvZ6O55S9smxm+/3fIufAx3kK99eXf/86dPl8fHvv1dkWVHUPCDHjvQZDNLxDtcZfNYKRPddxUA8PAiG7u3ZcfP9XngeBB0WP3RL8ex2PB4vldrNZrd7ff3mzcePxrhc10S0F3hszdEXIEjO/uZ0ciOUe+gwkMuVEOjequaLS2rey2Y9mVDoQJAPgoaEZePtVPPmL+OaruutvqyJKlJrzsEDV8P6HiiuC0Ngf8qZJad+q+e9jTUhqdD+yz1dyO2tmxM/zhuF+Sgj5FVRVMqGLumGrs8iV2u+NpBo5wX3TjEEe9Cwe0+VZ/UrczLPffHcCx1qb5vBt5VY9MiUdogiNm3QNzoDa8/DCrkoAcj0JZ9k8jSx7EEBLe+5gbj6V/k+ee4tFOV/q17QLftN34gWShtCjhcrll8DRINYRFWiwHFkthRuDQts7vMWNmeTxwBs/rbKGbmgw8EkRg0WSp12fTOJ9uhJu9TU5LzZ0Mn1qZsUGPMWb5A3gpOWvsrm5ofiPd3HjMk1q0L4Ptt2hkq2AwdE7gefOArWLP98Z5aoAqqVoQbMoCcG892Dvd1beq74+uSCLr6MTWafXRoFDh8Lc3jHpoLD+s42/EW7xAZwojQN8ot8WZjCbWOVGaxrkQu6ch4bzoaoXgQPg3yc8SPAkAempQOaztnyT1UXQbU23g2YOMUDb2TaHN0X493QLwrJGatzwbPHwmpuyhZ0xpj2/NAR4+s9OaDYiM889zSwZO+L8V7oDRt6PMTIvfJBJ8Yub4UukKmxM6677j5C+9/w5e8RZc68HSzt0cIrbaOgUK63Q6b5P3XUHD5zZMhIk/qY3KcMgDroGHYo4oGOr57vVAIYn/a77M3RslPl1yC3mkvGGrZtC4POA5PNHKcq8qDf0qWOMa7IRYj+TelLZdUxbt5KQgBVwxD9AzT5zANv11b8IjfvwphIyG3cjptd24GPB41ORu5cejdfFOU+8mJrxnggFwUyPRaxX5U/1Spp+r4uxVdECRhNN4p+XZ/2WjlkYIa51GY57/bmdk+cWyv8QxOz1VTzb5c4fqlXNIXEsXhoFdZhvHx8ddN+cvTq6Zbj7jEBRZRQkKV+3mfkecbfjF7tbpbz3shNvUplC4iy27Mh5+jneDsxbFy/+diqy/k84jOA9Hx0Qby8HlrTRPee7PO2NuD8XWEY/G69Uxa8nOfTZ/6mtdIwmVjyEo0IoMPiycdkLpd7U/u2W43jeP2ikfv0/mQqKyphM8PQrASQ10465yl6hxzt8PaOD+7whWpZGqjeGWZ85pW/WbGUGF2sNnT87tBxyUQe0a7ATD/+/LNxUhERn2k2UxDArjh+c5vySsZDu9xGCCk4QJag3GkVec97pnce+5tUs6lkcjPqfk5G1qqD9/DZWjySb0E+eXneDNqQT+ynymEFpAAKFcnQGM88k8zToPClenPabYfOtd0E9HDC2SnZeDMMXc9zS3oqc261gLtaTa8IbvQ8vx/Up5qt3ia71Yh5fwfoECiVy7eTeabHvL6GAfW5BaQAiuVP72W31Kcz+0dBvdmFVHfUTUXp4q4KHamCeu36prRg/xFNhwL2BRViAH5XGr5paTyd706nnz4LbEzfRuauMYkM/aq1NMWTHxPhM5VnRHY8VzEWND2a2ajU+dWJJlKXRfEZ8CCkNb2UGI5um+0llhAtdADlXhPxu7BQ5eLQFiqhp6gu5Iji7eFvl04LFQa/8zysOT1ebd6OGhepdS3+atCn+MKLWGpxZHWUQS784fy2EE8+upR4NzqWxTw07Sif3tp59ih0IkMc+Ruj5LDdXiR60UAHIp5GE+suEU8fZdAGWYDcn3WOVy+uf3l/ovFWc1GG2X82ZybDdrV6czsa3Q5v2ndRACtBl7Bj1XSNxq4Gf+mPM9NFzc1hl5iUEuc/ji5lBR9yQJBBvH84fxoH8rK7t7lRLtm9aber1VIpm13KDDrQtxYSuSogTqfs4t1ksMJ5dfJ9Zv6bzcu3F0rV5vDqm1+PUWSItB+3/2DhUIrCdqlabU8mjWTuNDnKDYfD7uTi4iLRxBT8TTi3+D1cSP9z4XoBHrEXEloVLruL3mwRFvwu1UR3+GPuqvbT74r4v9/9aXt5sUayUCWom5Nu9yL47qHgm7iD6QY/O6SG0IXdTbh9HZ3XXYiXqu3U5Dx5/Yt+ddu9uLlJpFKpUqm0gn0LunVlNehdnCtNOt/gaYhyib/eVFI1W203E81utztsNG4bOZMaiNAeRzRK4p/tf59RI/gml5WgY9SjGd5qcB4n1n6xqTDTQ1mTtre3s/EqoTj+ZTvroZCXrwKdTA+dJe/M/e+nZojm++JoFejEnjt5q5tAHddtRB9eboZWgU403GiGrBsg0dnGSlfY3RPFG824nyGrQJ9gNjvQJ37opeQq9zXeG8Xx9VITb8RbPU0uQwQlOYUdzdnwbfsS+dhkqXe9L7KuFju9dYOPL0WmmcYngaNwNdd0tH9hube9J8J3NIwu/HUSK1A11yw4ai7hhl64Cb8X6jNTPNm8e4BnUXbSeD3jbNvlKRSGofeg/YtQwSkz2qZdmu3Nn5F9fprYdzNSZ/FIW865kfNfh4YWtymxb4a58/9q1DydtFEc0WAtwx4f3t5HKcAXQfFU9/Y2Ua0S+Y5P7qMO4Euj7PB0dNr4f6Dfgmg7/k8SptH0f9+FOm/mek2uAAAAAElFTkSuQmCC" alt="">
+        </div>
+    </div>
+
+    
+
+    <div id = firstl >
+        <div>
+           <div style = "background-color: rgb(194,237,116);"     ><img src="https://static.semrush.com/blog/uploads/media/bb/89/bb8988f218075668d6103159c9393dea/how-to-get-backlinks.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+        <div>
+            <div>
+                <div style = "background-color: rgb(110,219,255);"><img src="https://static.semrush.com/blog/uploads/media/35/d8/35d86062a16fd07335c8ce24fce97b04/what-is-an-seo-company.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Marketing Basics</p>   <p>14 min read</p></div>    
+                 <h3>What Is an SEO Company? What Do SEO Agencies Do?</h3>    
+                 <p>This guide is dedicated to holding business owners by the hand, leading them through the ABCs of SEO services, what is included in SEO, how SEO business works, what an SEO company is and what to expect from them, how to hire the best one, and what it might cost and why.</p>   
+                <div class = author>
+                    <p>Kate Churkina</p>
+                    <p>Jun 21, 2022</p>
+                </div>
+             </div> 
+        </div>
+    </div>
+    </div>
+
+
+    <div class = first >
+        <div>
+           <div  style = "background-color: rgb(233,115,142);"><img src="https://static.semrush.com/blog/uploads/media/df/fd/dffdc005e056f4e1a6994cfffeaac7e7/splitsignal-case-study-34.svg" alt=""></div>
+           <div>
+           <div class = about> <p>SEO Split Testing</p> <p>3 min read</p></div>    
+            <h3>SEO Split Test Result: Adding Local Intent Keywords to Headings</h3>    
+            <p>We decided to run a test with SEO split testing software and see what effect local intent keywords added to headings have on organic clicks. Read the short case study to find out.</p>   
+           <div class = author>
+               <p>Brian Moseley</p>
+               <p>Jul 20, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style = "background-color: rgb(255,232,77);"><img src="https://static.semrush.com/blog/uploads/media/46/5d/465d49415afb01361b70a751983b0a09/forbes-30-under-30.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Original Research</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: rgb(120,226,168);"><img src="https://static.semrush.com/blog/uploads/media/76/a5/76a5ff4c2e48a8a6fd6b84077803db60/splitsignal-case-study-30.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>8 min read</p></div>    
+                 <h3>So You Want to Be a Forbes 30 Under 30 Winner? Here’s What We Learned from Their LinkedIn Profiles [Original...</h3>    
+                 <p></p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+    <h1> just try </h1>
+
+    <div id = green>
+        <div>
+            <h3>Boost Your Digital Marketing Services. Semrush Webinar</h3>
+            <p>Join the conversation LIVE as we hash out the best ways to grow your marketing services and products without the worry of sacrificing quality of services.</p>
+        </div>
+        <div>
+            <div><img src="https://www.semrush.com/lp/boost-your-digital-marketing/img/p-1_1x.webp" alt="">
+                <h4>Michael King</h4>
+                   <p>Founder and Managing Director of iPullRank</p>
+            </div>
+            <div>
+                <img src="https://www.semrush.com/lp/boost-your-digital-marketing/img/p-2_1x.webp" alt="">
+                <h4>Lee Odden</h4>
+                    <p>CEO & Co-Founder at TopRank Marketing</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 style = "margin: auto;">Editors' Choice</h2>
+
+
+    <div id = choice>
+        <div >
+            <h3>
+                What are Backlinks & How to Build Your Backlink Profile
+            </h3>
+            <p>Backlinks, also known as incoming links, are links from one website and linking to another. Learn more about what backlinks are, how search engines use them algorithmically, and how to build quality links to your site.</p>
+        </div>
+        <div>
+            <h3>
+                The Ultimate List of the 53 Best SEO Tools (Free & Paid)
+            </h3>
+            <p>Learn about our favorite SEO tools, both free and paid. Whether you’re in need of technical solutions, keyword research assistance, or local SEO tools, there’s something that will work for your business.</p>
+        </div>
+        <div>
+            <h3>Link Building for SEO: The Beginner’s Guide</h3>
+            <p>Link building remains an essential part of any successful SEO strategy, but it’s one of the tactics that marketers often struggle with the most. Our guide to link building strategies will answer all your questions and share tactics to help you identify new ways to build links to drive organic growth, including a number of quick-win approaches.
+            </p>
+        </div>
+        <div>
+            <h3>How to Do a Competitor Analysis (Including Template)</h3>
+            <p>Competitor analysis (also known as competitive analysis) is the process of evaluating your competitor’s strengths and weaknesses. In this guide, we show you how to do it and provide a template to help you stay organized.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+    <div id = blue>
+        <div>
+            <h3>Boost Your Digital Marketing Services. Semrush Webinar</h3>
+            <p>Join the conversation LIVE as we hash out the best ways to grow your marketing services and products without the worry of sacrificing quality of services.</p>
+        </div>
+        <div>
+            <div><img src="https://www.semrush.com/lp/crm-for-small-agencies/img/photo-1_1x.webp" alt="">
+                <h3>Diana Richardson</h3>
+                <p>Social and Community Manager at Semrush</p>
+            </div>
+            <div>
+                <img src="https://www.semrush.com/lp/crm-for-small-agencies/img/photo-2_1x.webp" alt="">
+                <h3>John Jantsch</h3>
+                <p>Founder - Duct Tape Marketing</p>
+            </div>
+        </div>
+    </div>
+
+
+    <h4>SEO</h4>
+
+    <div>
+        <button>What is SEO</button><button> Keyword Research</button>
+               <button> On-page SEO</button>
+                <button>SEO Copywriting</button>
+               <button>Link Building</button>
+                        <button>Technical SEO</button>
+                            <button> Website Architecture</button>
+    </div>
+
+    <div class = first >
+        <div>
+           <div style="background-color: rgb(194,237,116)";><img src="https://static.semrush.com/blog/uploads/media/40/f8/40f8739e519f2c09a1007626f79bda4a/rich-snippets.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style="background-color: rgb(255,232,77);"><img src="https://static.semrush.com/blog/uploads/media/c5/a9/c5a9c66fc7046e3236d91bd4b191fff9/seo-tips.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style="background-color: rgb(243,176,110);"><img src="https://static.semrush.com/blog/uploads/media/c8/ee/c8ee6d370d3af250e95c126d78ed04a1/why-google-s-blue-links-will-have-to-go_(1).svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+    <div class = first >
+        <div>
+           <div style="background-color: rgb(233,115,142);"><img src="https://static.semrush.com/blog/uploads/media/be/b0/beb04c540cd64ce589c2a56724c3607e/the-december-2021-product-view-update.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style = "background-color: rgb(120,226,168);"><img src="https://static.semrush.com/blog/uploads/media/cf/07/cf071af5041002fe2e3dbc58f70a06a9/analyze-your-place-in-the-online-market.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: rgb(194,237,116);"><img src="https://static.semrush.com/blog/uploads/media/7e/86/7e8653c89f11484969f0edacd2b0a6e2/hands-on-landing-page-optimization-tips.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+<h1> News</h1>
+
+<div id = news>
+    <div>
+        <h4>Give me the latest news!</h4>
+        <p>Want to know which websites saw the most traffic growth in your industry? Not sure why your SEO strategy doesn’t work? Or simply looking for SEO tips? Subscribe to our newsletter to receive updates on the content you care about.</p>
+        <input type="text">
+        <button>subscribe</button>
+        <p>By clicking “Subscribe” you agree to Semrush Privacy Policy and consent to Semrush using your contact data for newsletter purposes</p>
+    </div>
+    <div>
+        <img style = "height: 400px; width: 400px; background-color: rgb(248,197,0);"  src="data:image/jpeg;base64,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" alt="">
+    </div>
+</div>
+
+
+<h1 style = "text-align: center; margin-right: 45%;">Marketing</h1>
+<div id = marketing>
+    <button>Marketing Basics</button>
+    <button>Market Research</button>
+    <button>Competitor Research</button>
+    <button>PR</button>
+    <button>Agencies</button>
+      <button>Ecommerce</button>
+</div>
+
+
+    <div class = first >
+        <div>
+           <div style = "background-color: rgb(233,115,142);"><img src="https://static.semrush.com/blog/uploads/media/e5/4e/e54e9c51af7e1f8f196d60b4e1a1964f/hire-marketing-agency-for-your-business.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style = "background-color: rgb(233,94,43);"><img src="https://static.semrush.com/blog/uploads/media/f0/94/f094777d7046a3af19fd104fc86fdf67/digital-marketing-trends-2022.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: #e9738e;"><img src="https://static.semrush.com/blog/uploads/media/11/2e/112e15e3d8b1e98e63191d8213455182/sem-marketing.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+    <div class = first >
+        <div>
+           <div style = "background-color: #6edbff;"><img src="https://static.semrush.com/blog/uploads/media/4d/7f/4d7fb499b73ef206f1a1ac02d040c7a1/1email-marketing.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style = "background-color: #ffe84d;"><img src="https://static.semrush.com/blog/uploads/media/74/44/7444641203bb2ec0d14e1f1d97fec4b1/cpa-marketing.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: #b880ff;"><img src="https://static.semrush.com/blog/uploads/media/f2/46/f246d0a68c022b04fb21616448982f8b/marketing-campaign-guide-for-businesses-and-agencies.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+    <h1>I am just checklists</h1>
+
+
+    <div id = checklist>
+        <div>
+            <img style = "height: 400px; width: 500px; padding-bottom: 30%;" src="https://static.semrush.com/semblog-next-static/banners/trial-gift.png" alt="">
+        </div>
+        <div>
+            <h2>Boost your digital marketing efforts</h2>
+            <button>Get free trail </button>
+        </div>
+    </div>
+
+    <h2 style = "margin: auto;">Content</h2>
+
+    <div>
+       <button>Content Strategy</button>
+       <button>Content Creation</button>
+       <button>Content Typs</button>
+    </div>
+
+    <div class = first >
+        <div>
+           <div style = "background-color: #78e2a8;"><img src="https://static.semrush.com/blog/uploads/media/39/42/394221f1db53374bf9eaef5788fb9f47/building-high-performing-content-pillars.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style="background-color:#6edbff";><img src="https://static.semrush.com/blog/uploads/media/31/ea/31eaa734ffe0788a342a128294965e95/top-trending-topics.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: #e95e2b;"><img src="https://static.semrush.com/blog/uploads/media/df/95/df959d2b8f7e91aedf0f0ca21af8c193/use-semrush-to-supercharge-your-content-marketing.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+    <div class = first >
+        <div>
+           <div style = "background-color: #c2ed74;"><img src="https://static.semrush.com/blog/uploads/media/03/ff/03ff68055a86de8d910c6ededc8b0ca2/pillar-page.svg" alt=""></div>
+           <div>
+           <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+            <h3>How to Get Backlinks: 11 Strategies</h3>    
+            <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+           <div class = author>
+               <p>Kelly Lyons</p>
+               <p>Jun 24, 2022</p>
+           </div>
+        </div> 
+        </div>
+            <div>
+                <div style = "background-color: #b880ff;"><img src="https://static.semrush.com/blog/uploads/media/42/40/4240b6a32d04cb4a9c15d01f9f5f4d9e/definitive-guide-to-brand-storytelling.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div> 
+            <div>
+                <div style = "background-color: #ffe84d;"><img src="https://static.semrush.com/blog/uploads/media/02/a0/02a0a940459e1a1387ce2d57652b6f0d/website-content.svg" alt=""></div>
+                <div>
+                <div class = about> <p>Link Building</p>   <p>16 min read</p></div>    
+                 <h3>How to Get Backlinks: 11 Strategies</h3>    
+                 <p>There are many ways to earn backlinks, from utilizing digital PR to providing testimonials. Learn our 11 tried and true strategies.</p>   
+                <div class = author>
+                    <p>Kelly Lyons</p>
+                    <p>Jun 24, 2022</p>
+                </div>
+             </div> 
+        </div>
+
+    </div>
+
+   
+
+    <div id="blog_bottom"></div>
+</body>
+</html>
+
+
+<script type="module">
+
+import navbar from "./component/navbar.js"
+import bottom from "./component/bottom.js"
+
+document.getElementById("container").innerHTML=navbar();
+document.getElementById("blog_bottom").innerHTML=bottom();
+
+
+</script>

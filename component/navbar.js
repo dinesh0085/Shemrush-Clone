@@ -1,0 +1,93 @@
+let navbar=()=>{
+    return `  <div id="top">
+    <ul id="up">
+        <li ><a href="index.html"><img src="https://www.semrush.com/lp/sem-aeoy/img/logo-white.svg" alt=""></a></li>
+        <li><a href="Features.html">Features</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="">Resources <i class="fa fa-caret-down"></i> </a>
+            <div class="dropDown" style="width: 750px;">
+                <div class="deb">
+                   <a href="blog1.html"> <h1>Blog</h1></a> 
+                   <p>Read the industry's latest thoughts on digital marketing,content strategy,SEO,PPC,<br>,media and more.</p>
+                   <h1>What's New</h1> 
+                   <p>Keep track pf the newest Semrush features and improvements</p>
+                   <a href="ebooks.html"><h1>Ebook</h1></a> 
+                   <p>A range of downloadable guides in PDF format that can help you broaden your knowledge and improve your skills.</p>
+                   <h1>Academy</h1> 
+                   <p>Get vital SEO skills,learn how to use our toolkits and get official certificates of your proficiency in SEO and Semrush</p>
+                   
+                </div>
+                <div class="deb">
+                    <h1>Help Center</h1> 
+                    <p>Learn how to use Semrush with user manuals,how-to's,videos and more!</p>
+                    <h1>Webinars</h1> 
+                    <p>Register and take part in educational webinars conducted by the best digital marketing experts. </p>
+                    <h1>Hire a Trusted Agency</h1> 
+                    <p>Pressed for time?Need rare skills?Get help from a trusted agency.Our experrts work with marketing projects of all kinds and budgets.</p>
+                    <h1>Top Websites</h1> 
+                    <p>Discover the most visited websites.Analyze their traffic and search rankings.Choose country or industry to find out who currently leads th market.</p>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">Company <i class="fa fa-caret-down"></i> </a>
+            <div class="dropDown" style="width: 300px;">
+                <div class="deb">
+                   <a href="about us.html"> <h1> About Us </h1></a>
+                   <a href="news.html"> <h1>Newsroom</h1></a>
+                  <a href="">  <h1>Careers</h1></a>
+                   <a href="sucess.html"> <h1>Success Stories </h1></a>
+                   <a href="dataprovider.html"> <h1>Data Studies</h1></a>
+                   <a href=""> <h1>Affiliate Program</h1></a>
+                   <a href=""> <h1>For Investors</h1></a>
+                   <a href=""> <h1>Contacts</h1> </a>
+                   <a href="stats.html"> <h1>Stats and Facts</h1></a>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">App Center <i class="fa fa-caret-down"></i> </a>
+            <div class="dropDown" style="width: 650px;">
+                <div class="deb" style=" width: 30%; ">
+                    <h1> Store</h1>
+                    <h1>My Apps</h1>
+                    <h1>About</h1>
+                    <h1>For Partners</h1>
+                    
+                </div>
+                <div class="deb-img" style=" width: 70%;">
+                    <h1> <img src="https://static.semrush.com/app-center/apps_images/adclarity-advertising-intelligence/adclarity-icon-new.png" alt=""> AdClarity - Advertising Intelligence </h1>
+                    <h1><img src="https://static.semrush.com/app-center/apps_images/buzzguru-influencer-analytics/buzzguru-influencer-analytics-icon.png" alt=""> BuzzGuru Influencer Analytics</h1>
+                    <h1><img src="https://static.semrush.com/app-center/apps_images/e-commerce-keywords-analytics/E-commerce_Keyword_Analytics_app_logo.png" alt=""> E-commerce Keywords Analytics</h1>
+                    <h1><img src="https://static.semrush.com/app-center/apps_images/mobile-app-insights/Mobile_App_Insights_app_logo.png" alt=""> Mobile App Insights </h1>
+                    <h1><img src="https://static.semrush.com/app-center/apps_images/video-rank-tracker/Video_Rank_Tracker_app_logo.png" alt=""> Video Rank Tracker</h1>
+                    <h1><img src="https://static.semrush.com/app-center/apps_images/media-monitoring/logo.png" alt=""> Media Monitering</h1>
+                    <h1 style="margin-left:10px;">See more apps ...</h1>
+                </div>
+            </div>
+        </li>
+        <li><a href="#">Extra Tools <i class="fa fa-caret-down"></i> </i></a>
+            <div class="dropDown" style="width:400px;">
+                <div class="deb">
+                    <h1> Content Marketplace</h1>
+                    <h1>Content Outline Builder</h1>
+                    <h1>ImpactHero</h1>
+                    <h1>Tools For Amazon </h1>
+                    <h1>Prowly</h1>
+                    <h1>SplitSignal</h1>
+                    <h1>For Investors</h1>
+                    <h1>Customs reports</h1>
+                    <h1>Surround Sound</h1>
+                    <h1>Pagelmprove</h1>
+                </div>
+            </div>
+        </li>
+        <div id="Signin">
+            <p>EN<i class="fa fa-caret-down" style="margin-left: 5px;"></i></p>
+            <button> <a href="login.html"> Log In </a></button>
+            <button> <a href="signup.html"> SignUp </a></button>
+        </div>
+    </ul>
+    
+</div>  `
+}
+
+export default navbar   //Default export
