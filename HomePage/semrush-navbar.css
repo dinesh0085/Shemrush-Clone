@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    
+ }
+ #top{
+    width: 100%;
+     background-color:#111317;
+     text-align: center;
+     height: 3.5rem;
+ }
+#top a{
+    text-decoration: none;
+    color: white;
+}
+ #top ul{
+    
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+     margin: auto;
+     text-decoration: none;
+    align-items: center;
+    height: 56px;
+ }
+ #top ul li{
+  padding: 15px 0px;
+  cursor: pointer;
+ }
+ #top img{
+    width: 150px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+ }
+ #top img:hover{
+    background-color: transparent;
+ }
+
+ .dropDown{
+     display: none;  
+ }
+ .deb{
+   display: none;
+   padding: 30px;
+   
+ }
+ .deb h1,p{
+   text-align: start;
+   margin-top: 10px;
+ }
+ #top ul li:hover .dropDown{
+     display: inline-flex;
+     font-size: 13px;
+     position: absolute;
+     background-color:#111317;
+     margin-top: 30px;
+     margin-left: -120px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+     
+ }
+ #top ul li:hover .dropDown .deb{
+  display:block;
+ }
+ #top ul li:hover .dropDown .deb h1{
+   color:white;
+   font-size: 22px;
+   line-height: 30px;
+ }
+ #top ul li:hover .dropDown .deb p{
+  color:grey;
+  text-align: start;
+}
+ #top ul li:hover .dropDown .deb-img h1 img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+ }
+ #top ul li:hover .dropDown .deb-img h1{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+ }
+ #top ul li:hover .dropDown .deb-img  {
+  text-align: start;
+  padding: 30px 0px;
+ }
+
+
+
+ #Signin{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 7%;
+ }
+ #Signin > p{
+    margin-right: 10px;
+ }
+ #Signin > button:nth-child(2){
+    padding: 5px 15px;
+    background-color: #111317;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+ }
+ #Signin > button:nth-child(3){
+  padding: 5px 15px;
+  background-color: #00BC98;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
