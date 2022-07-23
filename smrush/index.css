@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#project{
+    border: 1px solid;
+    height: 47px;
+    width: 249px;
+    background: #ff622d1a;
+    }
+#search_panel{
+    border: 1px solid;
+    height: 47px;
+     width: 1245px; 
+     
+     background-color: #f4f5f9;
+        border-bottom: 1px solid #c4c7cf;
+        color: #333;
+         display: flex; 
+      
+        /* padding: 8px 32px; */
+    
+}
+#container{
+    border: 5px solid red;
+    display: flex;
+    background-color: #f4f5f9
+}
+#sidebar_project{
+    border: 1px solid;
+    height: 1692px;
+    width:250px ;
+}
+
+#main_projects{
+    border: 1px solid;
+    width: 1245px;
+    height: 1645px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f5f9;
+}
+/* /////////////////////////////// */
+.project_text{
+    color: #ff622d;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 40px;
+}
+/* ///////////////////////////////////////////////////////// */
+/* search ............................*/
+.input_search{
+    height: 30px;
+    width: 40%;
+    margin: auto 30px;
+    border: 0;
+    border-radius: 5px;
+  
+    
+}
+
+.text_competitors{
+    border: 1px solid;
+}
+#button_search{
+    height: 30px;
+    width: 55px;
+    border: 0;
+    align-items: center;
+    background-color: #ff622d;
+    color: #fff;
+    margin: auto -35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    
+} 
+#button_search:hover{
+    background-color: orangered;
+}
+
+/* projetcs mian .................................*/
+#projects_text{
+    display: flex;
+    border: 1px solid;
+    /* margin: 10px 20px; */
+    height: 50px;
+    justify-content:space-between;
+}
+.h1p{
+  margin: 10px 20px; 
+}
+
+#My_competitors{
+    border: 1px solid;
+    height: 250px;
+    width: 1200px;
+    margin: 10px 20px;
+    background-color: #fff;
+    
+  
+}
+.text_competitors{
+    margin-top: 5px;
+    margin-left: 30px;
+    border: 1px solid;
+    height:30px ;
+    
+}
+.h2myc{
+    margin: auto;
+}
+#domain{
+    border: 1px solid;
+    display: flex;
+}
+.imgrandom{
+    height:  169px;
+    width: 231px;
+    margin-left: 10px;
+    
+}
+.textdomain{
+    width: 550px;
+    padding: 20px;
+    border: 1px solid;
+    
+}
+.imgdomain{
+    margin: 10px 20px;
+}
+.p_text{
+    font-size:  20px;
+    line-height: 24px;
+}
+.add_domain_button{
+    color: #fff;
+    background-color: #009f81;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.limits_feed{
+    border: 1px solid;
+    display: flex;
+    margin-right: 25px;
+    color:#026eca;
+}
+.h3limits{
+    /* margin-left: 10px; */
+    padding-right: 10px;
+}
+.h3feed{
+    margin-right: 10px; 
+}
+.inputdomainclass{
+    height: 30px;
+    border: 0;
+    
+}
+
+#selectopt{
+    height: 30px;
+    border: 0;
+    cursor: pointer;
+}
+.add_domain_button:hover{
+    background-color: green;
+
+}
+/* ....................... */
+#my_projetcs_id{
+   border: 1px solid; 
+
+   height: 500px;
+   width: 1200px;
+   margin: 10px 20px;
+   background-color: #fff;
+   
+}
+.text_projetcs{
+    margin-top: 5px;
+    margin-left: 30px;
+    border: 1px solid;
+    height:30px ;
+    
+}
+#myprojetcSubdiv{
+    border: 1px solid;
+    display: flex;
+    
+}
+#projectsdiv{
+    border: 1px solid;
+    width: 550px;
+    padding: 20px;
+}
+.createbutton{
+background-color: #008ff8;
+border: 0;
+height: 30px;
+width: 150px;
+color: white;
+border-radius: 5px;
+text-align: center;
+font-size: 15px;
+cursor: pointer;
+}
+.createbutton:hover{
+    background-color: #0f73b9;
+}
+#ul_project{
+border: 1px solid;
+}
+ul{
+    font-size: 16px;
+    line-height: 1.5;
+}
+li{
+    margin-top: 5px;
+    padding: 5px;
+}
+/* ................ */
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #f4f5f9;
+}
+
+.sidebuttn{
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 600;
+    
+    padding: 12px 16px;
+    width: 85%;
+    margin: 5px 25px;
+    
+    cursor: pointer;
+}
+.sidebuttn:hover{
+background-color:rgb(198, 187, 187)
+}
+#managment{
+    border: 1px solid;
+display: flex;
+flex-direction: column;
+}
+.pmag{
+    margin:20px;
+    color:#7d797e;
+}
+
+.mangclass{
+    /* border: 1px solid; */
+    text-decoration: none;
+    color: black;
+    margin: 5px 20px
+}
+#others{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.othersclass{
+    /* border: 1px solid; */
+    text-decoration: none;
+    color: black;
+    margin: 10px 40px;
+    color:#7d797e;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 20px;
+}
