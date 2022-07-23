@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    color: white;
 }
 #container{
     width: 100%;
@@ -17,8 +16,14 @@
  }
 #top a{
     text-decoration: none;
+    color: white;
 }
-
+ /* #top>#up>li>a:hover{
+    background-color: red;
+ }
+ #top>#up>li>#cb_logo_10>img:hover{
+    background-color: transparent;
+ } */
 
  #top ul{
     
@@ -44,35 +49,39 @@
  .dropDown{
      display: none;
      font-size: 13px;
+     
  }
+ .deb{
+   
+   padding: 30px;
+   
+ }
+ .deb h1,p{
+   text-align: start;
+   margin-top: 10px;
  
+   
+   
+ }
  #top ul li:hover .dropDown{
-    display: flex;
+     display: flex;
      position: absolute;
-     background-color: white;
-     margin-top: 20px;
-     margin-left: 0px;
+     background-color:#111317;
+     margin-top: 19px;
+     margin-left: -60px;
+     
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
  }
- #top ul li:hover .dropDown ul{
-     display: block;
-     margin: 0px;
-     height: 100%;
-     width: 140%;
-     text-align: left;
-     padding: 0px;
+ #top ul li:hover .dropDown .deb h1{
+   color:white;
+   font-size: 20px;
  }
- #top ul li:hover .dropDown ul li{
-     width: 100%;
-     background: transparent;
-     color: black;
-     padding: 10px ;
+  #top ul li:hover .dropDown .deb p{
+   color:grey;
  }
- #top ul li:hover .dropDown ul li:hover{
-     background-color:  #eeeeee;
-     cursor: pointer;
- }
+
+
  #Signin{
     display: flex;
     width: 30%;
@@ -88,3 +97,350 @@
     background-color: #111317;
     border: 1px solid white;
  }
+
+ #measurable-units{
+   height: 100vh;
+   border: 1px solid red;
+   background-color: #421983;
+   text-align: center;
+ }
+ #measurable-units h1{
+   margin-top: 18vh;
+   font-size: 58px;
+ }
+ #measurable-units #measurable-units-decription{
+   font-size: 25px;
+   margin-top: 5vh;
+   font-family: sans-serif;
+   text-align: center;
+   line-height: 25px;
+
+ }
+ #measurable-units input{
+   width: 40%;
+   padding: 20px 40px;
+   margin-top: 20px;
+   border-radius: 10px;
+   border: none;
+ }
+ #measurable-units button{
+   padding: 20px 50px;
+   background-color: #E2501D;
+   border: none;
+   border-radius: 10px;
+ }
+ #trusted{
+   text-align: center;
+   margin-top: 15vh;
+   font-size: 18px;
+   color: gray;
+ }
+ #whats-inside{
+   background-color: #421983;
+ }
+ #whats-inside h1{
+   font-size: 35px;
+   text-align: center;
+ }
+ #content-marketing{
+   margin: auto;
+   width: 90%;
+   background-color: red;
+   border-radius: 20px;
+ }
+ #marketing-logo{
+
+   padding: 50px;
+   display: grid;
+   grid-template-columns: repeat(6,1fr);
+   grid-template-rows: repeat(1,150px);
+   gap: 20px;
+   
+ }
+ #marketing-logo div{
+   background-color: white;
+ }
+ #presentation{
+   margin: auto;
+   width: 100%;
+   display: flex;
+   background-color: green;
+ }
+ #presentation-description{
+  padding: 40px 40px 30px 40px;
+ }
+ #presentation-description li{
+  margin-left: 50px;
+  margin-top: 20px;
+ } 
+ #presentation-description button{
+  padding: 15px 40px;
+  background-color: #E2501D;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 18px;
+ }
+ #mario-leon-rojas{
+  
+  text-align: center;
+  padding: 60px 0px;
+ }
+ #mario-leon-rojas img{
+  margin-top: 50px;
+ }
+ #mario-leon-rojas h2{
+  font-size: 45px;
+ }
+ #mario-leon-rojas h4,p{
+  text-align: center;
+  margin-top: 10px;
+ }
+
+
+
+ #awards-winning-total{
+  text-align: center;
+ }
+ #awards-winning-total-numbers{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(1,200px);
+  align-items: center;
+ }
+
+
+ #moredata-more-insights{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+ }
+
+#moredata-more-insights-1{
+  border: 1px solid green;
+  padding: 0px 30px;
+}
+ #moredata-more-insights-2{
+  
+  display: grid;
+  padding: 0px 50px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  border: 1px solid blue;
+ }
+ #moredata-more-insights-2 > div{
+  text-align:start;
+  border: 1px solid red;
+  width: 230px;
+  height: 100px;
+ }
+ #moredata-more-insights-2 > div > p{
+  margin-left: 0px;
+ }
+ #ceo-founder{
+  display: flex;
+  padding: 50px;
+ }
+ #ceo-founder >  #ceo-description{
+  padding: 100px;
+ }
+ #ceo-founder >  #ceo-description > h1{
+  font-size: 40px;
+  margin-top: 50px;
+ }
+ #ceo-founder >  #ceo-description > p{
+  text-align: start;
+  margin-top: 15px;
+ }
+ #ceo-founder >  #ceo-description > p > span{
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF622D;
+ }
+ #ceo-founder >  #ceo-description > button{
+  width: 75%;
+  color: white;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #FF622D;
+ }
+#marketer-semrush{
+  width: 100%;
+  text-align: center;
+  padding: 50px 30px;
+}
+#marketer-semrush > h1{
+  font-size: 50px;
+  margin-top: 100px;
+}
+#marketer-semrush > #marketer-semrush-buttons{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+#marketer-semrush > #marketer-semrush-buttons > button{
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: white;
+  border: 1px solid gray;
+}
+#marketer-semrush > #employee-quotes{
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  background-color: #C9EDFF;
+  margin-top: 50px;
+  padding: 50px 30px;
+  border-radius: 10px;
+}
+#marketer-semrush > #employee-quotes > h1{
+margin-top: 100px;
+}
+#marketer-semrush > #employee-quotes > img{
+  margin-top: 50px;
+  border-radius: 50px;
+  width: 100px;
+}
+#marketer-semrush > #employee-quotes > h3{
+  margin-top: 30px;
+}
+#free-semrush-trail{
+  background-color: #421983;
+  height: 50vh;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+  
+}
+#free-semrush-trail > h1{
+  margin-top: 60px;
+  font-size: 50px;
+  color: white;
+}
+#free-semrush-trail > p{
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+#free-semrush-trail > button{
+  margin-top: 20px;
+  font-size: 25px;
+  color: white;
+  background-color: #FF622D;
+  padding: 10px  0px;
+  width: 27%;
+  border-radius: 5px;
+  border: none;
+}
+#semrush-bottom{
+  width: 100%;
+  background-color: #111317;
+  padding: 50px 50px;
+  color: white;
+}
+#semrush-bottom > #semrush-bottom-header{
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 35% 25% 35%;
+  grid-template-rows: auto;
+  gap: 30px;
+}
+#semrush-bottom > #semrush-bottom-header > div:first-child{
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+}
+#semrush-bottom > #semrush-bottom-header > div:first-child > div select{
+  background-color:#111317 ;
+  width: 100%;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: gray;
+  margin-left: 20px;
+
+}
+#semrush-bottom > #semrush-bottom-header > div:nth-child(3){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#semrush-bottom > #semrush-bottom-header > div:nth-child(3) > button{
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #00BC98;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#semrush-bottom > #semrush-bottom-middle{
+  border: 1px solid grey;
+  margin: auto;
+  width: 93%;
+  padding: 15px 0px 20px 0px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+#semrush-bottom > #semrush-bottom-middle > div{
+  width: 60%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 13px;
+  color: grey;
+  align-items: center;
+}
+
+
+#semrush-bottom-last{
+  width: 93%;
+  margin: auto;
+}
+#semrush-bottom-last{
+  width: 93%;
+  margin-top: 50px;
+  font-size: 13px;
+}
+#semrush-bottom-last > #semrush-bottom-last-company{
+  display: flex;
+}
+#semrush-bottom-last > #semrush-bottom-last-company > div{
+  margin-right: 95px;
+}
+#semrush-bottom-last li{
+  list-style: none;
+  line-height: 23px;
+  color: gray;
+}
+
+#semrush-website-copyright{
+  background-color: #000000;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+}
+#semrush-website-copyright img{
+  width: 160px;
+  margin-left: 8vw;
+}
+#semrush-website-copyright p{
+  color: gray;
+  font-size: 12px;
+  margin: 0px 0px 0px 50px;
+}
+
+
+
+
+
+
